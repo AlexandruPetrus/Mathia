@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Nombres entiers",
+    "grade": "6eme",
+    "chapter": "Chapitre 1",
+    "description": "Chapitre 1 du manuel de mathematiques 6eme"
+  },
+  {
+    "id": 2,
+    "title": "Nombres decimaux",
+    "grade": "6eme",
+    "chapter": "Chapitre 2",
+    "description": "Chapitre 2 du manuel de mathematiques 6eme"
+  },
+  {
+    "id": 3,
+    "title": "Operations sur les nombres",
+    "grade": "6eme",
+    "chapter": "Chapitre 3",
+    "description": "Chapitre 3 du manuel de mathematiques 6eme"
+  },
+  {
+    "id": 4,
+    "title": "Fractions",
+    "grade": "6eme",
+    "chapter": "Chapitre 4",
+    "description": "Chapitre 4 du manuel de mathematiques 6eme"
+  },
+  {
+    "id": 5,
+    "title": "Proportionnalite",
+    "grade": "6eme",
+    "chapter": "Chapitre 5",
+    "description": "Chapitre 5 du manuel de mathematiques 6eme"
+  },
+  {
+    "id": 6,
+    "title": "Geometrie - Droites et angles",
+    "grade": "6eme",
+    "chapter": "Chapitre 6",
+    "description": "Chapitre 6 du manuel de mathematiques 6eme"
+  },
+  {
+    "id": 7,
+    "title": "Geometrie - Triangles et quadrilateres",
+    "grade": "6eme",
+    "chapter": "Chapitre 7",
+    "description": "Chapitre 7 du manuel de mathematiques 6eme"
+  },
+  {
+    "id": 8,
+    "title": "Perimetres et aires",
+    "grade": "6eme",
+    "chapter": "Chapitre 8",
+    "description": "Chapitre 8 du manuel de mathematiques 6eme"
+  },
+  {
+    "id": 9,
+    "title": "Statistiques et probabilites",
+    "grade": "6eme",
+    "chapter": "Chapitre 9",
+    "description": "Chapitre 9 du manuel de mathematiques 6eme"
+  }
+]

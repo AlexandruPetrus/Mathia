@@ -1,0 +1,37 @@
+{
+  "name": "mathia-backend-minimal",
+  "version": "2.0.0",
+  "description": "Backend minimal pour Mathia - Génération IA uniquement (CRUD géré par Supabase)",
+  "main": "server_minimal.js",
+  "scripts": {
+    "start": "node server_minimal.js",
+    "dev": "nodemon server_minimal.js"
+  },
+  "keywords": [
+    "mathia",
+    "ai",
+    "openai",
+    "supabase"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "@supabase/supabase-js": "^2.39.0",
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
+
+
+

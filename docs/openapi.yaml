@@ -1,0 +1,1036 @@
+openapi: 3.0.3
+info:
+  title: Mathia API
+  description: |
+    API REST pour **Mathia** - Application de révision de mathématiques pour collégiens (6ème à 3ème).
+    
+    ## 🔐 Authentification
+    
+    L'API utilise **JWT (JSON Web Tokens)** pour l'authentification.
+    
+    - Routes **publiques** : `/auth/signup`, `/auth/login`
+    - Routes **protégées** : Toutes les autres routes nécessitent un JWT
+    
+    Pour accéder aux routes protégées, incluez le token dans le header :
+    ```
+    Authorization: Bearer {votre_token_jwt}
+    ```
+    
+    ## 🚀 Workflow typique
+    
+    1. S'inscrire avec `/auth/signup` → Récupérer le token
+    2. Utiliser le token pour accéder aux ressources protégées
+    3. Créer des exercices via `/admin/exercises`
+    4. Lister les exercices avec `/exercises`
+    5. Soumettre des réponses avec `/attempts`
+    
+  version: 1.0.0
+  contact:
+    name: Support Mathia
+    email: support@mathia.app
+
+servers:
+  - url: http://localhost:3000/api
+    description: Serveur de développement local
+  - url: https://api.mathia.app/api
+    description: Serveur de production
+
+tags:
+  - name: Auth
+    description: Authentification et inscription (routes publiques)
+  - name: Courses
+    description: Gestion des cours de mathématiques (JWT requis)
+  - name: Exercises
+    description: Gestion des exercices (JWT requis)
+  - name: Attempts
+    description: Soumission et vérification des réponses (JWT requis)
+  - name: Admin
+    description: Routes d'administration (JWT requis)
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: |
+        Token JWT obtenu via `/auth/signup` ou `/auth/login`.
+        
+        Format: `Bearer {token}`
+
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+          description: ID unique de l'utilisateur
+        name:
+          type: string
+          example: "Marie Dupont"
+          description: Nom complet de l'utilisateur
+        email:
+          type: string
+          format: email
+          example: "marie@example.com"
+          description: Adresse email (unique)
+        createdAt:
+          type: string
+          format: date-time
+          example: "2025-01-15T10:30:00Z"
+        updatedAt:
+          type: string
+          format: date-time
+          example: "2025-01-15T10:30:00Z"
+
+    Course:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        title:
+          type: string
+          example: "Les fractions"
+          description: Titre du cours
+        grade:
+          type: string
+          example: "6ème"
+          description: "Niveau scolaire (6ème, 5ème, 4ème, 3ème)"
+        chapter:
+          type: string
+          example: "Arithmétique"
+          description: Chapitre ou thème du cours
+        description:
+          type: string
+          example: "Apprendre les fractions simples"
+          description: Description détaillée du cours
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+        exercises:
+          type: array
+          items:
+            $ref: '#/components/schemas/ExerciseSimple'
+
+    ExerciseSimple:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        type:
+          type: string
+          example: "qcm"
+        difficulty:
+          type: string
+          example: "facile"
+
+    Exercise:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        courseId:
+          type: integer
+          example: 1
+          description: ID du cours auquel appartient l'exercice
+        type:
+          type: string
+          example: "qcm"
+          description: "Type d'exercice (qcm, libre, vrai-faux, calcul)"
+        body:
+          type: string
+          example: "Quelle est la moitié de 10?"
+          description: Énoncé de l'exercice
+        options:
+          type: object
+          nullable: true
+          example: { "A": "3", "B": "5", "C": "7", "D": "10" }
+          description: Options pour les QCM (null pour les autres types)
+        answer:
+          type: string
+          example: "B"
+          description: Réponse correcte
+        explanation:
+          type: string
+          nullable: true
+          example: "10 divisé par 2 égale 5"
+          description: Explication de la solution
+        difficulty:
+          type: string
+          nullable: true
+          example: "facile"
+          description: "Niveau de difficulté (facile, moyen, difficile)"
+        tags:
+          type: array
+          nullable: true
+          items:
+            type: string
+          example: ["fractions", "division"]
+          description: Tags pour catégoriser l'exercice
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+        course:
+          type: object
+          properties:
+            id:
+              type: integer
+            title:
+              type: string
+            grade:
+              type: string
+            chapter:
+              type: string
+
+    Attempt:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        exerciseId:
+          type: integer
+          example: 1
+        userAnswer:
+          type: string
+          example: "B"
+        isCorrect:
+          type: boolean
+          example: true
+        createdAt:
+          type: string
+          format: date-time
+          example: "2025-01-15T12:30:00Z"
+
+    Error:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: false
+        message:
+          type: string
+          example: "Message d'erreur"
+
+paths:
+  /health:
+    get:
+      tags:
+        - Health
+      summary: Vérifier l'état de l'API
+      description: Route de santé pour vérifier que l'API est fonctionnelle
+      responses:
+        '200':
+          description: API fonctionnelle
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  message:
+                    type: string
+                    example: "API Mathia fonctionnelle"
+                  timestamp:
+                    type: string
+                    format: date-time
+
+  /auth/signup:
+    post:
+      tags:
+        - Auth
+      summary: Inscription d'un nouvel utilisateur
+      description: |
+        Créer un nouveau compte utilisateur.
+        
+        **Fonctionnalités :**
+        - Hash automatique du mot de passe avec bcrypt
+        - Génération d'un token JWT
+        - Validation des données (email, longueur du nom et du password)
+        
+        **Pas d'authentification requise** (route publique)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - name
+                - email
+                - password
+              properties:
+                name:
+                  type: string
+                  minLength: 3
+                  maxLength: 100
+                  example: "Marie Dupont"
+                  description: Nom complet de l'utilisateur
+                email:
+                  type: string
+                  format: email
+                  example: "marie@example.com"
+                  description: Adresse email unique
+                password:
+                  type: string
+                  minLength: 6
+                  example: "password123"
+                  description: Mot de passe (minimum 6 caractères)
+            examples:
+              exemple1:
+                summary: Inscription standard
+                value:
+                  name: "Marie Dupont"
+                  email: "marie@example.com"
+                  password: "password123"
+              exemple2:
+                summary: Inscription avec nom long
+                value:
+                  name: "Jean-Pierre Martin"
+                  email: "jp.martin@test.fr"
+                  password: "securePass456"
+      responses:
+        '201':
+          description: Inscription réussie
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  message:
+                    type: string
+                    example: "Inscription réussie"
+                  data:
+                    type: object
+                    properties:
+                      user:
+                        $ref: '#/components/schemas/User'
+                      token:
+                        type: string
+                        example: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+                        description: Token JWT à utiliser pour les requêtes authentifiées
+              examples:
+                success:
+                  summary: Réponse succès
+                  value:
+                    success: true
+                    message: "Inscription réussie"
+                    data:
+                      user:
+                        id: 1
+                        name: "Marie Dupont"
+                        email: "marie@example.com"
+                        createdAt: "2025-01-15T10:30:00Z"
+                        updatedAt: "2025-01-15T10:30:00Z"
+                      token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTYxMDAwMDAwMCwiZXhwIjoxNjEwNjA0ODAwfQ.signature"
+        '400':
+          description: Données invalides
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: false
+                  message:
+                    type: string
+                    example: "Erreur de validation"
+                  errors:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        field:
+                          type: string
+                        message:
+                          type: string
+              examples:
+                validation_error:
+                  summary: Erreur de validation
+                  value:
+                    success: false
+                    message: "Erreur de validation"
+                    errors:
+                      - field: "email"
+                        message: "email must be a valid email"
+                      - field: "password"
+                        message: "password length must be at least 6 characters long"
+        '409':
+          description: Email déjà utilisé
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                email_exists:
+                  summary: Email déjà utilisé
+                  value:
+                    success: false
+                    message: "Cet email est déjà utilisé"
+
+  /auth/login:
+    post:
+      tags:
+        - Auth
+      summary: Connexion d'un utilisateur
+      description: |
+        Se connecter avec email et mot de passe.
+        
+        **Fonctionnalités :**
+        - Vérification du mot de passe avec bcrypt
+        - Génération d'un nouveau token JWT
+        - Retour des informations utilisateur
+        
+        **Pas d'authentification requise** (route publique)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - email
+                - password
+              properties:
+                email:
+                  type: string
+                  format: email
+                  example: "marie@example.com"
+                password:
+                  type: string
+                  example: "password123"
+            examples:
+              login_example:
+                summary: Exemple de connexion
+                value:
+                  email: "marie@example.com"
+                  password: "password123"
+      responses:
+        '200':
+          description: Connexion réussie
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  message:
+                    type: string
+                    example: "Connexion réussie"
+                  data:
+                    type: object
+                    properties:
+                      user:
+                        $ref: '#/components/schemas/User'
+                      token:
+                        type: string
+                        example: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+              examples:
+                success:
+                  summary: Connexion réussie
+                  value:
+                    success: true
+                    message: "Connexion réussie"
+                    data:
+                      user:
+                        id: 1
+                        name: "Marie Dupont"
+                        email: "marie@example.com"
+                        createdAt: "2025-01-15T10:30:00Z"
+                        updatedAt: "2025-01-15T10:30:00Z"
+                      token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTYxMDAwMDAwMCwiZXhwIjoxNjEwNjA0ODAwfQ.signature"
+        '401':
+          description: Email ou mot de passe incorrect
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                invalid_credentials:
+                  summary: Identifiants incorrects
+                  value:
+                    success: false
+                    message: "Email ou mot de passe incorrect"
+
+  /courses:
+    get:
+      tags:
+        - Courses
+      summary: Récupérer tous les cours
+      description: |
+        Retourne la liste complète de tous les cours avec leurs exercices associés.
+        
+        **JWT requis** - Incluez le token dans le header Authorization
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Liste des cours récupérée avec succès
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  data:
+                    type: object
+                    properties:
+                      courses:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Course'
+              examples:
+                success:
+                  summary: Exemple de réponse
+                  value:
+                    success: true
+                    data:
+                      courses:
+                        - id: 1
+                          title: "Les fractions"
+                          grade: "6ème"
+                          chapter: "Arithmétique"
+                          description: "Apprendre les fractions simples"
+                          createdAt: "2025-01-15T10:00:00Z"
+                          updatedAt: "2025-01-15T10:00:00Z"
+                          exercises:
+                            - id: 1
+                              type: "qcm"
+                              difficulty: "facile"
+                            - id: 2
+                              type: "libre"
+                              difficulty: "moyen"
+                        - id: 2
+                          title: "Les équations"
+                          grade: "3ème"
+                          chapter: "Algèbre"
+                          description: "Résoudre des équations du premier degré"
+                          createdAt: "2025-01-15T11:00:00Z"
+                          updatedAt: "2025-01-15T11:00:00Z"
+                          exercises: []
+        '401':
+          description: Non authentifié (token manquant ou invalide)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                no_token:
+                  summary: Token manquant
+                  value:
+                    success: false
+                    message: "Accès non autorisé. Token manquant."
+                invalid_token:
+                  summary: Token invalide
+                  value:
+                    success: false
+                    message: "Token invalide."
+
+  /courses/{id}:
+    get:
+      tags:
+        - Courses
+      summary: Récupérer un cours par ID
+      description: |
+        Retourne les détails d'un cours spécifique avec tous ses exercices.
+        
+        **JWT requis** - Incluez le token dans le header Authorization
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: ID du cours
+          schema:
+            type: integer
+          example: 1
+      responses:
+        '200':
+          description: Cours récupéré avec succès
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  data:
+                    type: object
+                    properties:
+                      course:
+                        $ref: '#/components/schemas/Course'
+              examples:
+                success:
+                  summary: Cours avec exercices
+                  value:
+                    success: true
+                    data:
+                      course:
+                        id: 1
+                        title: "Les fractions"
+                        grade: "6ème"
+                        chapter: "Arithmétique"
+                        description: "Apprendre les fractions simples"
+                        createdAt: "2025-01-15T10:00:00Z"
+                        updatedAt: "2025-01-15T10:00:00Z"
+                        exercises:
+                          - id: 1
+                            courseId: 1
+                            type: "qcm"
+                            body: "Quelle est la moitié de 10?"
+                            options: { "A": "3", "B": "5", "C": "7", "D": "10" }
+                            answer: "B"
+                            explanation: "10 divisé par 2 égale 5"
+                            difficulty: "facile"
+                            tags: ["fractions", "division"]
+                            createdAt: "2025-01-15T10:15:00Z"
+                            updatedAt: "2025-01-15T10:15:00Z"
+        '401':
+          description: Non authentifié
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: Cours non trouvé
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                not_found:
+                  summary: Cours inexistant
+                  value:
+                    success: false
+                    message: "Cours non trouvé"
+
+  /exercises:
+    get:
+      tags:
+        - Exercises
+      summary: Récupérer tous les exercices avec filtrage
+      description: |
+        Retourne la liste des exercices avec possibilité de filtrer par :
+        - **courseId** : ID du cours
+        - **difficulty** : Niveau de difficulté (facile, moyen, difficile)
+        
+        Les deux filtres peuvent être combinés.
+        
+        **JWT requis** - Incluez le token dans le header Authorization
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: courseId
+          in: query
+          required: false
+          description: Filtrer par ID de cours
+          schema:
+            type: integer
+          example: 1
+        - name: difficulty
+          in: query
+          required: false
+          description: Filtrer par niveau de difficulté
+          schema:
+            type: string
+            enum: [facile, moyen, difficile]
+          example: "facile"
+      responses:
+        '200':
+          description: Liste des exercices récupérée avec succès
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  data:
+                    type: object
+                    properties:
+                      exercises:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Exercise'
+              examples:
+                all_exercises:
+                  summary: Tous les exercices
+                  value:
+                    success: true
+                    data:
+                      exercises:
+                        - id: 1
+                          courseId: 1
+                          type: "qcm"
+                          body: "Quelle est la moitié de 10?"
+                          options: { "A": "3", "B": "5", "C": "7", "D": "10" }
+                          answer: "B"
+                          explanation: "10 divisé par 2 égale 5"
+                          difficulty: "facile"
+                          tags: ["fractions", "division"]
+                          createdAt: "2025-01-15T10:15:00Z"
+                          updatedAt: "2025-01-15T10:15:00Z"
+                          course:
+                            id: 1
+                            title: "Les fractions"
+                            grade: "6ème"
+                            chapter: "Arithmétique"
+                filtered_by_course:
+                  summary: Filtrés par cours
+                  value:
+                    success: true
+                    data:
+                      exercises:
+                        - id: 1
+                          courseId: 1
+                          type: "qcm"
+                          body: "Quelle est la moitié de 10?"
+                          difficulty: "facile"
+                          course:
+                            id: 1
+                            title: "Les fractions"
+                filtered_by_difficulty:
+                  summary: Filtrés par difficulté
+                  value:
+                    success: true
+                    data:
+                      exercises:
+                        - id: 1
+                          difficulty: "facile"
+                          body: "Question facile..."
+                        - id: 3
+                          difficulty: "facile"
+                          body: "Autre question facile..."
+        '401':
+          description: Non authentifié
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /attempts:
+    post:
+      tags:
+        - Attempts
+      summary: Soumettre une réponse à un exercice
+      description: |
+        Enregistre une réponse utilisateur et vérifie automatiquement si elle est correcte.
+        
+        **Fonctionnalités :**
+        - Comparaison insensible à la casse (trim + lowercase)
+        - Enregistrement dans la base de données
+        - Retour de l'explication **uniquement si la réponse est correcte**
+        
+        **JWT requis** - L'utilisateur connecté est identifié via le token
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - exerciseId
+                - userAnswer
+              properties:
+                exerciseId:
+                  type: integer
+                  example: 1
+                  description: ID de l'exercice
+                userAnswer:
+                  type: string
+                  example: "B"
+                  description: Réponse de l'utilisateur
+            examples:
+              qcm_answer:
+                summary: Réponse QCM
+                value:
+                  exerciseId: 1
+                  userAnswer: "B"
+              free_answer:
+                summary: Réponse libre
+                value:
+                  exerciseId: 2
+                  userAnswer: "4"
+      responses:
+        '201':
+          description: Réponse enregistrée avec succès
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  data:
+                    type: object
+                    properties:
+                      attempt:
+                        $ref: '#/components/schemas/Attempt'
+                      isCorrect:
+                        type: boolean
+                        example: true
+                      explanation:
+                        type: string
+                        nullable: true
+                        description: "Présent uniquement si isCorrect = true"
+                      correctAnswer:
+                        type: string
+                        nullable: true
+                        description: "Présent uniquement si isCorrect = true"
+              examples:
+                correct_answer:
+                  summary: Réponse correcte
+                  value:
+                    success: true
+                    data:
+                      attempt:
+                        id: 1
+                        exerciseId: 1
+                        userAnswer: "B"
+                        isCorrect: true
+                        createdAt: "2025-01-15T12:30:00Z"
+                      isCorrect: true
+                      explanation: "10 divisé par 2 égale 5"
+                      correctAnswer: "B"
+                incorrect_answer:
+                  summary: Réponse incorrecte
+                  value:
+                    success: true
+                    data:
+                      attempt:
+                        id: 2
+                        exerciseId: 1
+                        userAnswer: "A"
+                        isCorrect: false
+                        createdAt: "2025-01-15T12:31:00Z"
+                      isCorrect: false
+        '400':
+          description: Données invalides
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '401':
+          description: Non authentifié
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: Exercice non trouvé
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                exercise_not_found:
+                  summary: Exercice inexistant
+                  value:
+                    success: false
+                    message: "Exercice non trouvé"
+
+  /admin/exercises:
+    post:
+      tags:
+        - Admin
+      summary: Ajouter un exercice manuellement
+      description: |
+        Créer un nouvel exercice et l'associer à un cours existant.
+        
+        **Champs obligatoires :**
+        - courseId
+        - type
+        - body
+        - answer
+        
+        **Champs optionnels :**
+        - options (obligatoire pour les QCM)
+        - explanation
+        - difficulty
+        - tags
+        
+        **JWT requis** - Accessible à tous les utilisateurs authentifiés
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - courseId
+                - type
+                - body
+                - answer
+              properties:
+                courseId:
+                  type: integer
+                  example: 1
+                  description: ID du cours parent
+                type:
+                  type: string
+                  example: "qcm"
+                  description: "Type d'exercice (qcm, libre, vrai-faux, calcul)"
+                body:
+                  type: string
+                  example: "Quelle est la moitié de 10?"
+                  description: Énoncé de l'exercice
+                options:
+                  type: object
+                  nullable: true
+                  example: { "A": "3", "B": "5", "C": "7", "D": "10" }
+                  description: Options pour les QCM (null pour les autres types)
+                answer:
+                  type: string
+                  example: "B"
+                  description: Réponse correcte
+                explanation:
+                  type: string
+                  nullable: true
+                  example: "10 divisé par 2 égale 5"
+                  description: Explication de la solution
+                difficulty:
+                  type: string
+                  nullable: true
+                  example: "facile"
+                  description: "Niveau de difficulté (facile, moyen, difficile)"
+                tags:
+                  oneOf:
+                    - type: array
+                      items:
+                        type: string
+                    - type: object
+                  nullable: true
+                  example: ["fractions", "division"]
+                  description: Tags pour catégoriser
+            examples:
+              qcm_exercise:
+                summary: Exercice QCM
+                value:
+                  courseId: 1
+                  type: "qcm"
+                  body: "Quelle est la moitié de 10?"
+                  options:
+                    A: "3"
+                    B: "5"
+                    C: "7"
+                    D: "10"
+                  answer: "B"
+                  explanation: "10 divisé par 2 égale 5"
+                  difficulty: "facile"
+                  tags: ["fractions", "division"]
+              free_exercise:
+                summary: Exercice libre
+                value:
+                  courseId: 1
+                  type: "libre"
+                  body: "Calculez : 15 + 27"
+                  answer: "42"
+                  explanation: "15 + 27 = 42"
+                  difficulty: "facile"
+                  tags: ["addition"]
+              minimal_exercise:
+                summary: Exercice minimal (champs requis seulement)
+                value:
+                  courseId: 1
+                  type: "calcul"
+                  body: "Combien font 5 × 3?"
+                  answer: "15"
+      responses:
+        '201':
+          description: Exercice créé avec succès
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  message:
+                    type: string
+                    example: "Exercice créé avec succès"
+                  data:
+                    type: object
+                    properties:
+                      exercise:
+                        $ref: '#/components/schemas/Exercise'
+              examples:
+                success:
+                  summary: Création réussie
+                  value:
+                    success: true
+                    message: "Exercice créé avec succès"
+                    data:
+                      exercise:
+                        id: 5
+                        courseId: 1
+                        type: "qcm"
+                        body: "Quelle est la moitié de 10?"
+                        options: { "A": "3", "B": "5", "C": "7", "D": "10" }
+                        answer: "B"
+                        explanation: "10 divisé par 2 égale 5"
+                        difficulty: "facile"
+                        tags: ["fractions", "division"]
+                        createdAt: "2025-01-15T14:00:00Z"
+                        updatedAt: "2025-01-15T14:00:00Z"
+        '400':
+          description: Données invalides
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                validation_error:
+                  summary: Erreur de validation
+                  value:
+                    success: false
+                    message: "Erreur de validation"
+                    errors:
+                      - field: "courseId"
+                        message: "courseId is required"
+        '401':
+          description: Non authentifié
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: Cours non trouvé
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                course_not_found:
+                  summary: Cours inexistant
+                  value:
+                    success: false
+                    message: "Cours non trouvé"

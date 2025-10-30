@@ -1,0 +1,1298 @@
+[
+  {
+    "type": "libre",
+    "body": "Reperer un nombre decimal sur une On peut se limiter 2 Nombres decimaux dix-milliemes demi-droite graduee aux centiemes",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "2"
+  },
+  {
+    "type": "libre",
+    "body": "39 --- PAGE 21 --- 20 Livre du professeur – Complement pedagogique .tiled nu tse eesirotua non eipocotohp aL – ruesseforp ud erviL – e6 ogidnI noissiM – 7102 erviL ettehcaH © Programme offi ciel du cycle 3 Nombres et calculs (suite) Comprendre et utiliser la notion de nombre decimal. Situations necessitant : – Specifi cites des nombres decimaux. – d’utiliser des nombres decimaux pour rendre compte de partage de grandeurs Associer diverses designations d’un nombre decimal (fractions decimales, ecritures a ou de mesure de grandeurs dans des cas simples ; virgule et decompositions). – d’utiliser diff erentes representations : mesures de longueurs et aires, une unite etant – Regles et fonctionnement des systemes de numeration dans le champ des nombres choisie ; decimaux, relations entre unites de numeration (point de vue decimal), valeurs des – de faire le lien entre les unites de numeration et les unites de mesure (dixieme/dm/dg/ chiff res en fonction de leur rang dans l’ecriture a virgule d’un nombre decimal (point dL, centieme/cm/cg/cL/centimes d’euro, etc.). de vue positionnel). La demi-droite numerique graduee est l’occasion de mettre en evidence Reperer et placer des decimaux sur une demi-droite graduee adaptee. des agrandissements successifs de la graduation du 1/10 au 1/",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "facile",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "15"
+  },
+  {
+    "type": "libre",
+    "body": "39 --- PAGE 48 --- RT E IPAHC Livre du professeur – Chapitre 2 Nombres decimaux 47 .tiled nu tse eesirotua non eipocotohp aL – ruesseforp ud erviL – e6 ogidnI noissiM – 7102 erviL ettehcaH © 222 Nombres decimaux Introduction Extrait du programme : Le cycle 3 vise a introduire des notions nouvelles comme les nombres decimaux. Les fractions puis les nombres decimaux apparaissent comme de nouveaux nombres introduits pour pallier l’insuffi sance des nombres entiers, notamment pour mesurer des longueurs, des aires et reperer des points sur une demi-droite graduee. Le lien a etablir avec les connaissances acquises a propos des entiers est essentiel. Avoir une bonne comprehension des relations entre les diff erentes unites de numeration des entiers (unites, dizaines, centaines de chaque ordre) permet de les prolonger aux dixiemes, centiemes, etc. Les caracteristiques communes entre le systeme de numeration et le systeme metrique sont mises en evidence. L’ecriture a virgule est presentee comme une convention d’ecriture d’une fraction decimale ou d’une somme de fractions decimales. Cela permet de mettre a jour la nature des nombres decimaux et de justifi er les regles de comparaison (qui se diff erencient de celles mises en œuvre pour les entiers) et de calcul. Connaissances et competences associees Exemples de situations, d’activites et de ressources pour l’eleve Comprendre et utiliser la notion de nombre decimal. Situations necessitant : » Specifi cites des nombres decimaux. » d’utiliser des nombres decimaux pour rendre compte de Associer diverses designations d’un nombre decimal (fractions partage de grandeurs ou de mesure de grandeurs dans des cas decimales, ecritures a virgule et decompositions). simples. » Regles et fonctionnement des systemes de numeration dans le champ » d’utiliser diff erentes representations : mesures de longueurs et des nombres decimaux, relations entre unites de numeration (point aires, une unite etant choisie. de vue decimal), valeurs des chiff res en fonction de leur rang dans » de faire le lien entre les unites de numeration et les unites de l’ecriture a virgule d’un nombre decimal (point de vue positionnel). mesure (dixieme / dm / dg / dL, centieme / cm / cg / cL / centimes Reperer et placer des decimaux sur une demi-droite graduee adaptee. d’euros, etc.). Comparer, ranger, encadrer, intercaler des nombres decimaux. La demi-droite numerique graduee est l’occasion de mettre en evidence des agrandissements successifs de la graduation du » Ordre sur les nombres decimaux. 1/10 au 1/1",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "facile",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "15"
+  },
+  {
+    "type": "calcul",
+    "body": "Reperes de progressivite : Pour les nombres decimaux, les activites peuvent se limiter aux centiemes en debut de cycle pour s’etendre aux dix-milliemes en 6e. • Les nombres decimaux interviennent bien sur dans le cadre du domaine « nombres et calculs », mais egalement dans le domaine « grandeurs et mesures » : ils permettent d’apprehender et d’estimer des mesures de grandeurs. Il est donc important de le traiter tres tot dans l’annee afi n de pouvoir le reinvestir dans la mise en place des quatre operations, notamment dans les multiplications et divisions par 10, 100 et 1 000 qui s’appuient sur le sens des nombres decimaux, dans la pratique des conversions et dans la re",
+    "answer": "de problemes impliquant des grandeurs (geometriques, physiques, economiques). • Les prerequis pour traiter ce chapitre sont : – lire et ecrire des nombres entiers ; – connaitre les unites de numeration et leurs relations ; – comparer, ranger, encadrer des nombres entiers, les reperer et les placer sur une demi-droite graduee adaptee ; – connaitre les fractions decimales. • Les objectifs qui ont guide l’ecriture de ce chapitre sont : – se rendre compte de l’insuffi sance des entiers naturels pour resoudre certains problemes ; – defi nir les nombres decimaux pour resoudre des problemes qui n’avaient pas de solution dans les entiers ; – mettre en place et utiliser plusieurs notations pour un meme nombre ; – prolonger aux nombres decimaux l’ordre que l’on connaissait sur les entiers ; – concevoir qu’entre deux nombres decimaux, on peut toujours en intercaler un autre ; – utiliser les nombres decimaux pour donner des valeurs approchees. Les eleves ont rencontre les nombres decimaux des le debut du cycle 3 mais pour certains d’entre eux, le sens et les principes de la numeration decimale et de position ne sont pas encore acquis. La principale erreur faite par les eleves est le traitement separe des parties entieres et decimales dans l’ecriture a virgule. On evitera donc l’usage des expressions 4 m 25 cm ; 25 € 35 centimes pour lire 4,25 m ou 25,35 €, qui favorisent cette mauvaise representation des nombres decimaux. Une conception erronee des nombres decimaux se repercute sur la maitrise des operations, les multiplications et divisions par 10 ; 100 ; 1 000…, et dans le rangement des nombres decimaux. Il ne s’agit pas de refaire en classe de 6e un apprentissage complet des decimaux, mais de proposer des situations ou les decimaux prennent tout leur sens pour permettre aux eleves d’entretenir, d’enrichir ou de corriger leur mauvaise conception des nombres decimaux. Un temps important doit etre consacre a la premiere activite afi n de s’assurer que chaque eleve ait compris le sens des diff erentes ecritures decimales et que chacun se soit aff ranchi de la notion de « barriere » entre partie entiere et partie decimale. Le tableau numerique de position n’est pas un passage oblige dans l’apprentissage des nombres decimaux. S’il peut etre utilise, il est preferable de ne pas en faire un usage systematique sans quoi il risque de faire obstacle au sens de la numeration de position et decimale et faire ainsi perdurer des erreurs. 0,01 × 26 + 0,1 × 6 + 1 × 4 = 4,86 A la sortie, le chevalier possede 4,86 €. 6223_Livre.indb 47 17/07/2017",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "calcul",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "000"
+  },
+  {
+    "type": "qcm",
+    "body": "Le jeu video Activite 1 Intentions des auteurs • On insistera sur le fait que l’on a ecrit trois notations diff erentes d’un meme nombre. On amenera les eleves a refl echir sur Objectifs : chacune de ces notations, et a faire emerger les noms des – Comprendre les differentes ecritures d’un nombre decimal ; diff erentes ecritures : – Travailler sur les ecritures decimales et fractionnaires et sur – l’ecriture fractionnaire pour simplifi er l’ecriture en francais « 24 l’expression orale de ces ecritures ; dixiemes » ; – Se rendre compte de la necessite, pour pouvoir comparer, – la decomposition : partie entiere + partie decimale ; d’utiliser des graduations plus fines : le dixieme, le centieme, – l’ecriture decimale. le millieme ; • On ecrira des egalites comme celles-ci : – Construire une bonne representation mentale, a l’aide des 9 24 4 zooms successifs, de l’intercalation toujours possible d’un =0,9 ; =2 + = 2,4 ; etc. 10 10 10 decimal entre deux decimaux. • On mettra en parallele la decomposition et l’ecriture decimale Prerequis : Connaitre la demi-droite graduee et les fractions (position de la virgule). decimales. • On amenera les eleves a proposer une lecture de chacune des Capacite introduite : Comprendre et utiliser les nombres lignes du tableau. decimaux. Afi n de construire une bonne representation des decimaux, il est Commentaires : On travaille dans le domaine de la mesure du important de dire et de lire avec un retour au « sens » les fractions temps ; la seconde etant utilisee comme unite de temps, les 9 eleves ne peuvent pas choisir de sous-unites pour se ramener decimales ou les nombres decimaux. Par exemple, 0,9 et sont 10 a des entiers. deux notations du meme nombre qu’on lira « neuf dixiemes » et non pas « zero virgule neuf » ou « neuf sur dix ». Le nombre ayant",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "qcm",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "813"
+  },
+  {
+    "type": "libre",
+    "body": "A partir de cette demi-droite graduee, on reactive la defi nition pour ecriture decimale « 2,8 » peut se lire « 2 unites et 8 dixiemes ». d’un dixieme. On mettra en relation le partage en 10 et le prefi xe 8 de dixieme. Il peut aussi etre lu « 28 dixiemes » et peut etre ecrit 2+ ou Pour les plus fragiles, il est necessaire de bien expliciter le partage 28 10 encore . en dix parts egales de l’unite (ici la seconde) et eventuellement de 10 faire placer d’autres temps inferieurs a une seconde. Par exemple, 2 • Il est egalement important de presenter l’ecriture a virgule dixiemes, 7 dixiemes, etc., avant de placer ceux qui sont superieurs comme une convention d’ecriture d’une fraction decimale ou a une seconde. d’une somme de fractions decimales. On pourra rappeler que L N CE d’un point de vue historique, l’usage des fractions remonte a l’Antiquite, alors que les nombres decimaux ont plutot emerge 0 1 2 3 au Moyen Age et l’ecriture decimale a ete imposee a la Revolution",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "1"
+  },
+  {
+    "type": "libre",
+    "body": "A cette question, il apparait necessaire de mettre en place une amene a placer les nouveaux temps sur la demi-droite de la sous-unite des dixiemes afi n de pouvoir comparer deux temps et question precedente afi n de donner du sens a la decomposition donner ainsi du sens au mot « centieme ». « partie entiere + partie decimale ». On pourra amener les eleves a refl echir en combien de parts Ils sont egalement amenes a refl echir en particulier a l’ecriture de les dixiemes sont partages, puis en combien de parts l’unite est dix dixiemes. partagee et on mettra en relation, la encore, le partage en 100 et le prefi xe de centieme. Joueurs Scores 34 On pourra egalement les amener a decomposer en 7 3 4 100 Nina 17 dixiemes 1 + 1,7 + et faire emerger la position des chiff res dans l’ecriture 10 10 100 9 decimale. Lilly 9 dixiemes 0 + 0,9 10 33 Score de Jules : 233 centiemes = 2 + = 2,33 4 100 Eneko 24 dixiemes 2 + 2,4 10 34 Score de Zoe : 234 centiemes = 2 + = 2,34 3 100 Cali 23 dixiemes 2 + 2,3",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "3"
+  },
+  {
+    "type": "libre",
+    "body": "Mise en place des milliemes de la meme facon que precedemment. 10 338 4 2 338 milliemes = 2 + = 2,338 Anton 14 dixiemes 1 + 1,4 1000 10 8 Sarah 28 dixiemes 2 + 2,8 10 0 Teva 10 dixiemes 1 + 1 10 6223_Livre.indb 48 17/07/2017",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "4"
+  },
+  {
+    "type": "libre",
+    "body": "39 --- PAGE 50 --- Livre du professeur – Chapitre 2 Nombres decimaux 49 .tiled nu tse eesirotua non eipocotohp aL – ruesseforp ud erviL – e6 ogidnI noissiM – 7102 erviL ettehcaH © Prolongement : Et si le jeu proposait une loupe plus puissante Les rythmes sur cette activite peuvent etre tres diff erents dans une permettant de partager chacun de ces petits segments en dix meme classe, donc afi n de permettre aux plus fragiles d’acquerir parties de meme longueur, quelles ecritures pourraient etre une bonne representation des nombres decimaux a partir des affi chees a l’ecran ? dixiemes, on peut proposer aux plus rapides le prolongement Un bilan peut etre ecrit sur : suivant : – les relations entre unites de numeration (point de vue decimal), « Faire des recherches en autonomie a l’aide des outils numeriques – les valeurs des chiff res en fonction de leur rang dans l’ecriture sur l’evolution de l’ecriture decimale, ou approfondir le texte de decimale (point de vue positionnel) en s’appuyant sur le dernier la page",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "15"
+  },
+  {
+    "type": "libre",
+    "body": "10 b. Les dixiemes sont partages en 10 puis encore en",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "3"
+  },
+  {
+    "type": "libre",
+    "body": "On obtient donc des centiemes puis des milliemes. Coup de pouce possible : Commencer par decomposer 5,",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "10"
+  },
+  {
+    "type": "vrai-faux",
+    "body": "en premier. Elle compare le nombre de chiff res apres la virgule. Or cet – Ranger des nombres decimaux dans l’ordre croissant, c’est les argument est faux. Contre-exemple : 5,013 < 5,35 ranger du plus petit au plus grand. On pourra faire emerger la methode de comparaison : Comparer d’abord les parties entieres puis, si elles sont egales, les parties decimales. SSSSaaaavvvvooooiiiirrrr----ffffaaaaiiiirrrreeee 7 • 2605 = 2600 + 5 =26+ 5 =26,05 100 100 100 100 698 698 • =0+ =0,698 1000 1000 48 40 8 4 8 5 425,48=425+ =425+ + =425+ + 100 100 100 10 100 507 500 7 7 4250 4 8 4254 8 8 • = + =5+ = + + = + 100 100 100 100 10 10 100 10 100 7 Donc la partie entiere est 5 et la partie decimale est . Dans 425 unites, il y a 4 254 dixiemes. 100 32506 32000 506 506 • = + =32+ 6 7 est le chiff re des centaines. 1000 1000 1000 1000 1 est le chiff re des dizaines. 506 Donc la partie entiere est 32 et la partie decimale est . 4 est le chiff re des unites. 1000 2 est le chiff re des dixiemes. 427 420 7 7 5 est le chiff re des centiemes. • = + = 42+ 10 10 10 10 6 est le chiff re des milliemes. 7 Donc la partie entiere 42 et la partie decimale est . 9 est le chiff re des dix-milliemes. 10 6223_Livre.indb 50 17/07/2017",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "vrai-faux",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "7"
+  },
+  {
+    "type": "libre",
+    "body": "39 --- PAGE 52 --- Livre du professeur – Chapitre 2 Nombres decimaux 51 .tiled nu tse eesirotua non eipocotohp aL – ruesseforp ud erviL – e6 ogidnI noissiM – 7102 erviL ettehcaH © 11 Les dixiemes sont partages en 10, on obtient donc des centiemes. 51 50 1 54",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "15"
+  },
+  {
+    "type": "libre",
+    "body": "On peut 100 10 1000 10 100 1000 prendre 2 comme valeur approchee au dixieme, et on 36 30 6 6 D=7+ =7+ + =7+3+ =10,6 note : 2,01 ≈ 2 10 10 10 10 2,1 < 2,11 < 2,2 mais 2,11 est plus proche de 2,",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "2"
+  },
+  {
+    "type": "libre",
+    "body": "On peut 3 1260 3 1263 prendre 2,1 comme valeur approchee au dixieme et on 27 A=126+ = + = note : 2,11 ≈ 2,1 10 10 10 10 6 14300 6 14306 14 a. 5,32 = 5,320 b. 26,2 > 24,8 B=143+ = + = 100 100 100 100 c. 14,035 < 14,35 d. 15,1 > 15,09 12563 200000 12563 212563 C=2+ = + = 7 70 100000 100000 100000 100000 15 18,7=18+ =18+ 10 100 28 A = 56 unites et 286 milliemes 18,36=18+ 36 et 18,07=18+ 7 . ou 56 unites 2 dixiemes 8 centiemes 6 milliemes 100 100 B = 123 unites et 5 centiemes On a donc : 183,6 > 28,7 > 18,7 > 18,36 > 18,07 ou 123 unites 5 centiemes C = 45 unites et 1 289 dix-milliemes ou 45 unites 1 dixieme 2 centiemes 8 milliemes 9 dix-milliemes EEEEExxxxxeeeeerrrrrccccciiiiiccccceeeeesssss 29 a. 10,96 b. 7,305 c. 26,000 7 30 L’ecriture decimale de 24 centaines, 3 dixiemes et 8 dix-milliemes Comprendre et utiliser les nombres decimaux est 2 400,300",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "1"
+  },
+  {
+    "type": "libre",
+    "body": "C’est Karim qui a raison. 76 7 6 78 8 QQQQQuuuuueeeeessssstttttiiiiiooooonnnnnsssss ffffflllllaaaaassssshhhhh 31 a. 1000 = 100 + 1000 =0,076 b. 10 =7+ 10 =7,8 19 1 9 c. = + =0,0019 8 45 10000 1000 10000 16 se lit 8 dixiemes ; se lit 45 centiemes ; 156 56 10 100 d. =1+ =1,56 126 58 100 100 se lit 126 milliemes ; se lit 58 dix-milliemes ; 1000 10000 536 3 6 5 29 32 • 42+ = 42+ + + se lit 29 millioniemes. 1000 100 1000 10 1000000 420356 • 420,356= 17 a. Le chiff re des dizaines de 125,86 est",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "8"
+  },
+  {
+    "type": "libre",
+    "body": "1000 b. Le chiff re des centiemes de 325,568 est",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "2"
+  },
+  {
+    "type": "libre",
+    "body": "• 425,036= 425+ 3 + 6 c. Le chiff re des dixiemes de 334,12 est",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "6"
+  },
+  {
+    "type": "libre",
+    "body": "100 1000 d. Le chiff re des milliemes de 1 356,026 est",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "1"
+  },
+  {
+    "type": "libre",
+    "body": "e. Le chiff re des dixiemes de 137 est",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "6"
+  },
+  {
+    "type": "libre",
+    "body": "Il y a 8 unites dans 80 dixiemes.",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "1"
+  },
+  {
+    "type": "libre",
+    "body": "Il y a 60 unites dans 6 dizaines et 6 unites dans 60 dixiemes.",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "2"
+  },
+  {
+    "type": "libre",
+    "body": "Il y a 47 dixiemes dans 4 unites et 7 dixiemes. 37 F I N D 39 30 9 9 3 4 23 a. = + =3+ 10 10 10 10 7589 7000 589 589 38 G O L D b. = + =7+ 1000 1000 1000 1000 1 2 2356 2300 56 56 c. = + =23+ 100 100 100 100 39 a. A S K 803 24 est egale a 8,",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "3"
+  },
+  {
+    "type": "libre",
+    "body": "b. La moins bonne performance a eu lieu a Sydney. Coup de pouce possible : Observer les graduations en 4 1 remarquant les deux nombres reperes sur la demi-droite. c. + =0,41 10 100 On observe les graduations : les dixiemes sont partages en 10, Il y a 0,41 m soit 41 cm d’ecart entre ces deux perfor- on obtient donc des centiemes qui sont aussi partages en 10, mances. on obtinet donc des milliemes.",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "1988"
+  },
+  {
+    "type": "libre",
+    "body": "S B A LB′ R S R′ 5 5,01 2 1 7 7,1 7,2 7,3 7,4 7,5 1 6 – + – 1 000 1 000 12 – 100 6 1 7 5+ et 5− sont distants de . 1000 1000 1000 Les plus fragiles peuvent raisonner sur la demi-droite. Donc 5,006 et 4,999 sont distants de 7 milliemes et n’ont pas la Les autres peuvent d’abord chercher l’abscisse du point a meme partie entiere. placer en additionnant directement comme ci-dessous. 63 Les rideaux 12 40 12 52 7,4+ =7+ + =7+ =7,52 • 3,83 ≈ 4 (valeur approchee a l’unite) 100 100 100 100 Pour le tissu noir qui est vendu au metre, il lui faudra 4 m. • 3,83 ≈ 3,9 (valeur approchee au dixieme) 68 Les cinq familles Pour le tissu blanc qui est vendu au dixieme de metre, il lui faudra 3,9 m. Coup de pouce possible : Donner l’ecriture decimale de chacun des nombres. 64 Fichiers informatiques",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "facile",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "4"
+  },
+  {
+    "type": "libre",
+    "body": "Le vendeur a voulu dire « trois euros et cinq centimes », soit 456 dix-milliemes = 0,0456 + + =0,456 trois euros et cinq centiemes d’euros, soit 3,05 €. 10 100 1000 Le boucher a voulu dire que son poulet pese « un kilogramme 4560 456 et cinq cents grammes », soit un kilogramme et 5 dixiemes de = 4,56 = 4,56 kilogramme, soit 3,5 kg. 1000 100 4 dizaines 5 dixiemes 6 centiemes = 40,56 4,005 6 On reviendra sur le lien entre la position d’un chiff re dans l’ecriture decimale et sa valeur. 4056 4 56 = 4,056 + =0,456",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "1"
+  },
+  {
+    "type": "libre",
+    "body": "39 --- PAGE 55 --- 54 NOMBRES ET CALCULS .tiled nu tse eesirotua non eipocotohp aL – ruesseforp ud erviL – e6 ogidnI noissiM – 7102 erviL ettehcaH © Les cartes restantes de Telma seront donc : 69 Les sous-unites • La milliseconde (ms) est l’unite de mesure qui est 1 000 fois plus petite que la seconde. 4 056 4 056 6 (4 × 10) + (65 × 1) 456 – 0–,456 0 405, 4+5 – 6 0 45 + – – 1 milliseconde4 v0a u+t 0d,o5n6c 1 millieme de seconde. 100 100 10 + (6 × 01,01) 1 000 • Le centimetre (cm) est l’unite de mesure qui est 100 fois plus petite que le metre. 1 centimetre vaut donc 1 centieme de metre. • Le decilitre (dL) est l’unite de mesure qui est 10 fois plus (4 × 10) + (5 × 1) 456 45 6 5 6 45 6 5 pe6tite que le litre. – –40 ++ –0,56 4 +–+– –+– 4 +–+– + (6 × 0,1) 1 000 1 000 10 000 10 100 1 000 10 000 10 11 0d0ecilitre vaut donc 1 dixieme de litre. 70 La boite de cereales Les cartes restantes de Jasmine seront donc : Coup de pouce possible : Combien de grammes vaut 1 dixieme de mg ? 4 dizaines 456 4 5456 6 4 4 5560 6 445 5660 –+–+– –+––+– –– 5 dixiemes 4,005 6 dix-milliemes 10dix-1m0i0llie1m 0e0s0 10 11 000001 000 110 0000 1 2 6 centiVeimtamesines B2 1,2mg= g+ g=0,0012g 1000 10000 456 4 d 4 i z 0 a 5 i 6 nes 4 4 05566 4 4 × 0,0 5 1 6 4 × 0,01 13,3mg= 13 g+ 3 g – 100 5 6 –d c 1 e i x n 0 i 0 t e i 0 m em es es – 10 –4 1 +, 0 0 – 1 0 0 0 5 00 6 0 + + – 1 5 6 0 × × + 0 0– , 1 , 0 0 0 0 0 0 0 1 0 1 + + 5 6 × × 0 0 V , , 0 i 0 t 0 a 0 m 0 1 1 ines B3 = 1 g+ 1 3 00 g 0 + 1 3 000 g 0 =0,0133g 100 1000 10000 4 dizaines 166 456 Vitamines B9 166µg= g=0,000166g – 5 dixiemes 4,005 6 1000000 100 6 centiemes 2 1 Vitamines B12 2,1mg = g+ g=0,0021g 1000 10000 Prolongements (variantes du jeu) : 10 1",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "15"
+  },
+  {
+    "type": "libre",
+    "body": "En 1960 : precision au dixieme de seconde solution. En 2014 : precision au millieme de seconde Le score de Jules est compris entre 12 et 12,",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "2"
+  },
+  {
+    "type": "libre",
+    "body": "Sachant qu’il n’a que sept fl echettes et qu’il utilise Prolongement possible : D’apres les donnees, les athletes trois fl echettes pour faire 12 points, il lui reste quatre fl echettes etaient-ils plus rapides en 1960 ou en 2016 ? Que peut-on pour la partie decimale. On sait que le chiff re des dixiemes et en penser ? Il peut etre interessant d’amener les eleves a des centiemes est",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "12"
+  },
+  {
+    "type": "libre",
+    "body": "On peut donc preciser la longueur de la diagonale : elle est comprise entre 1,4 et 1,5 unites. c. On utilise ici la bande unite qui est partage en centiemes. 1",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "2"
+  },
+  {
+    "type": "libre",
+    "body": "Coup de pouce possible : Preciser que l’on va utiliser la premiere bande unite pour mesurer la longueur de la diagonale, la deuxieme pour la question b. et la troisieme pour la question c. On peut donc preciser encore la longueur de la diagonale : a. On utilise ici la bande unite : elle est comprise entre 1,41 et 1,42 unites. On precisera bien que l’on n’a toujours pas la valeur exacte 1 de la longueur de la diagonale. 77 Devinette Coup de pouce possible : Faire un schema avec des traits pour chaque chiff re que l’on completera en utilisant les indications. Par exemple, la premiere indication nous permet d’ecrire : _ , _ _ _ _ Que va nous permettre d’ecrire la deuxieme indication ? • Mon dernier chiff re non nul apres la virgule est celui des dix-milliemes. Sans zero inutile, la partie decimale a quatre 1 chiff res apres la virgule. • Je suis compris entre 37,2 et 37,",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "4"
+  },
+  {
+    "type": "libre",
+    "body": "• Je contiens 3 728 centiemes. Le nombre cherche est de cette forme : 37,28 _ _ Il ne manque plus que les chiff res des milliemes et dix- milliemes. • Mon chiff re des milliemes est le triple de celui des dixiemes, c’est donc",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "37"
+  },
+  {
+    "type": "libre",
+    "body": "• Mon chiff re des dix-milliemes est la moitie de celui des On peut donc dire que la longueur de la diagonale est centiemes, c’est donc",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "6"
+  },
+  {
+    "type": "libre",
+    "body": "Classement : Usain Bolt – Justin Gatlin – Andre de Grasse – Yohan Blake – Akani Simbine – Andre Ben Youssef – Jimmy Cet exercice donne l’occasion de refl echir a l’evolution des Vicaut – Trayvon Bromell ecritures et a la naissance de l’ecriture decimale.",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "4"
+  },
+  {
+    "type": "libre",
+    "body": "• L’ecriture decimale de 27 ⓪ 8 ① 4 ② 7 ③ est : temps. 8 4 7 27+ + + =27,847 19 4 23 10 100 1000 + = Usain Bolt devance Jimmy Vicaut de 0,23 s. 100 100 100 • L’ecriture decimale de 37 ⓪ 6 ① 7 ② 5 ③ est : 6 7 5 37+ + + =37,675 Questions ceinture verte 10 100 1000 8 • L’ecriture decimale de 875 ⓪ 7 ① 8 ② 2 ③ est :",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "1"
+  },
+  {
+    "type": "libre",
+    "body": "a. ou 0,08 seconde separe les deux premiers sprinters. 100 7 8 2 875+ 10 + 100 + 1000 =875,782 b. 19 + 6 = 25 0,25 seconde separe le premier 100 100 100 et le dernier sprinter. • L’ecriture decimale de 941 ⓪ 3 ① 0 ② 4 ③ est : 3 0 4",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "1"
+  },
+  {
+    "type": "libre",
+    "body": "Akani Simbine (9,94 s) a devance le Francais (10,04 s) d’un Juliette peut donner : 322,2 ; 322,3 ; 322,4 ; 322,5 ; dixieme de seconde. 322,6 ; 322,7 ; 322,8 ; 322,9 ; 323,1 ; 323,",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "2"
+  },
+  {
+    "type": "libre",
+    "body": "Donner un encadrement au centieme de 15,",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "3"
+  },
+  {
+    "type": "libre",
+    "body": "Quelle est la partie entiere de l’abscisse de A, son chiff re des – Justin Gatlin est le deuxieme, sa performance est donc dixiemes et son chiff re des centiemes ? 9,89 s. – Andre de Grasse est le troisieme, sa performance est donc Questions ceinture noire 9,91 s.",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "4"
+  },
+  {
+    "type": "libre",
+    "body": "Je suis un nombre decimal. Mon dernier chiff re non nul apres – J immy Vicaut est le septieme, sa performance est donc la virgule est celui des dix-milliemes. 10,04 s. Mon nombre de dixiemes est 90",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "1"
+  },
+  {
+    "type": "libre",
+    "body": "– Andre Ben Youssef est le sixieme, sa performance est donc Mon chiff re des centiemes est le tiers de celui des milliers. 9,96 s. Mon chiff re des milliemes est le double de celui des dixiemes. – La performance de Yohan Blake est 9,93 s. Mon chiff re des dix-milliemes est le double de celui des – Trayvon Bromell est le dernier, sa performance est donc centiemes. 10,06 s.",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "3"
+  },
+  {
+    "type": "libre",
+    "body": "0,03 m = 3 cm b. Un encadrement au millimetre est un encadrement au dixieme de centimetre. Questions ceinture verte 3,8 cm < c < 3,9 cm 0,000 05 m = 0,000 050 m = 50 × 0,000 001 m = 50 µm 0,000 000 2 m = 0,2 µm et 0,000 2 m = 0,2 mm",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "2"
+  },
+  {
+    "type": "libre",
+    "body": "a. Questions ceinture noire Dans 0,000 000 000 1 le chiff re 1 est a la dixieme place apres la virgule donc 0,000 000 000 1 m est dix fois plus petit que 1 nm et 0,000 000 000 1 m = 0,1 nm et 0,000 002 mm = 2 000 nm. OOOOOOOuuuuuuutttttttiiiiiiilllllllsssssss nnnnnnnuuuuuuummmmmmmeeeeeeerrrrrrriiiiiiiqqqqqqquuuuuuueeeeeeesssssss eeeeeeeeeeettttttttttt aaaaaaaaaaalllllllllllgggggggggggooooooooooorrrrrrrrrrriiiiiiiiiiittttttttttthhhhhhhhhhhmmmmmmmmmmmiiiiiiiiiiiqqqqqqqqqqquuuuuuuuuuueeeeeeeeeee 83 Course de kilometre lance",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "2"
+  },
+  {
+    "type": "libre",
+    "body": "2 centiemes de km/h entre le 2e et le 3e skieur. 7 dixiemes de km/h entre les deux derniers skieurs. 6223_Livre.indb 57 17/07/2017",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "6"
+  },
+  {
+    "type": "libre",
+    "body": "la virgule dans le produit. 2,65 metres de tissu coutent donc 21,73 €. 820 × 2 = 1 640 Or 8,20 = 820 ÷",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "73"
+  },
+  {
+    "type": "libre",
+    "body": "25,45 + 78,4 = 103,85 52,8 + 7,2 = 60 f. 10,24 + 781,2 13 a. 7,8 – 5,7 = 2,1 b. 8 – 7,2 = 0,8 Un ordre de grandeur est : 10 + 782 = 792 c. 6,4 – 0,3 = 6,1 d. 9,7 – 9,1 = 0,6 e. 59 – 8,2 = 50,8 f. 55,55 – 50,55 = 5 1 0 , 2 4 + 7 8 1 , 2 14 Pour cet exercice, on peut aussi utiliser le tableau de 7 9 1 , 4 4 numeration. 10,24 + 781,2 = 791,44 a. 3 dixiemes correspondent a 0,",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "60"
+  },
+  {
+    "type": "libre",
+    "body": "g. 7,12 + 369 25,4 + 0,3 = 25,7 Un ordre de grandeur est : 7 + 370 = 377 b. 1 centieme correspond a 0,",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "3"
+  },
+  {
+    "type": "libre",
+    "body": "2,51 + 0,01 = 2,52 7 , 1 2 c. 4 milliemes correspondent a 0,",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "01"
+  },
+  {
+    "type": "libre",
+    "body": "+ 3 6 9 51,134 + 0,004 = 51,138 +1 d. 1 dizaine correspond a 10 et 1 dixieme correspond a 0,",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "004"
+  },
+  {
+    "type": "libre",
+    "body": "3 7 6 , 1 2 212,5 + 10 + 0,1 = 222,6 7,12 + 369 = 376,12 e. 4 centaines et 6 centiemes correspondent a 400,",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "1"
+  },
+  {
+    "type": "libre",
+    "body": "35,2 × 2,7 = 95,04 7 , 9 2 1 7 , 9 5 34 a. 6,7 × 5 × 2 = 6,7 × 10 = 67 22 Le carre magique est imprimable. b. 4 × 25 × 7,89 = 100 × 7,89 = 789 c. 2 × 15,87 × 50 = 15,87 × 2 × 50 = 15,87 × 100 = 1 587 d. 5,4 × 8 × 125 = 5,4 × 1 000 = 5 400 4 8 7,2 35 a. 78,9 × 5 = 394,5 (1 chiff re apres la virgule) b. 5,71 × 7 = 39,97 (2 chiff res apres la virgule) 9,6 6,4 3,2 c. 124,5 × 2,4 = 29,88 (1 + 1 = 2 soit 2 chiff res apres la virgule) d. 5,531 × 8,1 = 44,801 1 (3 + 1 = 4 soit 4 chiff res apres la 5,6 4,8 8,8 virgule) 36 On commence par la premiere ligne : 4 + 7 ,2 = 11,2 Les operations a completer sont imprimables. puis 19,2 – 11,2 =",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "7"
+  },
+  {
+    "type": "libre",
+    "body": "394 km × 2 = 788 km Pour faire l’aller-retour, il va C : chiff re des dixiemes de 4 756,31 + 5 758,9 = 10 515,21 parcourir 788 km. donc C =",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "1"
+  },
+  {
+    "type": "libre",
+    "body": "788 – 750 = 38 km Il depasse donc le forfait de 38 km. D : chiff re des dixiemes de 9,1 + 4,2 × 3 = 9,1 + 12,6 = 21,7 0,19 × 38 = 7,22 € Il va payer 7,22 € en plus pour le donc D =",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "2"
+  },
+  {
+    "type": "libre",
+    "body": "depassement de kilometres. E : chiff re des centiemes de 205 + 7,22 = 212,22 € En prenant le forfait 5 jours, il va (168,5 + 5,6) × 9,8 = 174,1 × 9,8 = 1 706,18 donc E =",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "7"
+  },
+  {
+    "type": "libre",
+    "body": "Louis XIV a regne de 1643 a 1715 (doc. 1), soit pendant 72 ans. De plus, elle a oublie de placer la virgule dans le produit.",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "1"
+  },
+  {
+    "type": "vrai-faux",
+    "body": "adulte (15 € – 13,50 € = 1,50 €) et pour un billet enfant De plus, la virgule est mal placee car Mohamed a d’abord place (13 € – 11,50 € = 1,50 €), soit une diff erence de 4 × 1,50 € = 6 €. la virgule (trois chiff res apres la virgule dans le produit, ce qui Cet exercice permet de travailler la lecture d’enonces, la est correct), puis il a rajoute les quatre zeros de 960 000, ce recherche des informations utiles parmi de nombreux qui du coup n’a aucune incidence sur le resultat. En eff et, on documents. peut rajouter autant de zeros que l’on veut a droite de la partie decimale sans que cela ne change le resultat. Il faut d’abord rajouter les quatre zeros, puis placer la virgule 70 Ecriture d’enonce de sorte qu’il y ait trois chiff res apres la virgule dans le produit. Cet exercice permet de travailler le sens des operations, les Correction : 9 6 priorites de calculs et la constitution d’un enonce. × 9, 0 0 8 Questions ceinture jaune 7 6 8 Exemple d’enonce : A la mercerie, Marie a achete 6,20 m de fi l + 8 6 4 0 0 0 vendu 0,23 € le metre et une nouvelle aiguille pour sa machine 8 6 4, 7 6 8 a coudre a 4,80 €. • Quel est le montant des achats de Marie ? Donc 960 000 × 9,008 = 8 647 680,000 soit 8",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "vrai-faux",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "4"
+  },
+  {
+    "type": "libre",
+    "body": "D4). Il faudra etre vigilant a affi cher dans les colonnes B et D des decimaux avec deux decimales et, dans la colonne C, des decimaux avec trois decimales, en reglant le format de cellule. On obtient alors le tableau suivant : Cet exercice permet de travailler sur plusieurs outils diff erents : tableur, logiciel Scratch et calculatrice et d’eff ectuer un meme calcul avec ces diff erents outils. On pourra demander ainsi aux eleves de comparer ces diff erents procedes. 6223_Livre.indb 68 17/07/2017",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "2"
+  },
+  {
+    "type": "vrai-faux",
+    "body": "Effectuer et utiliser une division decimale 40 a. Vrai car 9 = 3 × 3 9 est lui-meme un multiple de",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "vrai-faux",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "9"
+  },
+  {
+    "type": "libre",
+    "body": "On 16,70 ÷ 3 ≈ 5,6 Le prix du T-shirt chez le vendeur B est pourra donc repartir les verres dans (au dixieme pres) d’environ 5,60 €. des boites de trois sans qu’il en reste. Le vendeur A est donc le moins cher.",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "3"
+  },
+  {
+    "type": "libre",
+    "body": "11 15 27 27 a. trois quarts b. un quart c. un dixieme d. un demi 2 9 4 7 21 1 1 3 12 7 10 28 a. b. 12 4 22 a. 23 b. 13 c. 15 d. 11 e. 7 c. 1 ou 1 pour les annees bissextiles. 10 4 2 25 50 365 366 23 a. la moitie b. le quadruple Pour la question b., certains eleves proposeront peut-etre c. le tiers d. le triple un tiers en se referant a une situation qu’ils connaissent e. le double f. le quart bien : l’annee scolaire qui comporte trois trimestres. On peut Cet exercice permet de travailler la maitrise de la langue revenir a l’etymologie de ce mot : tri = trois et mensis = mois. et pourra etre repropose tout au long de l’annee dans le 1 5 40 4 cadre d’activites orales. 29 a. b. c. ou 10 1 1000 100 1 1 1 30 150 ÷ 15 = 10 10 × 4 = 40 24 Gabon : Madagascar : Maurice : Elle a mange 40 g de chocolat. 3 3 4 Nigeria : 2 Niger : 1 31 33 ÷ 3 = 11 11 × 2 = 22 3 3 Aurore a bu 22 cL de soda. 25 ÷ 5 = 5 5 × 3 = 15 Ameline a bu 15 cL d’eau. 32 13,5 ÷ 9 = 1,5 1,5 × 2 = 3 Il a parcouru 3 km en gondole. 6223_Livre.indb 81 17/07/2017",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "3"
+  },
+  {
+    "type": "libre",
+    "body": "C’est Melanie qui a bu le plus de yaourt. Ecriture decimale (exacte ou approchee au dixieme) ≈ 0,4 9,25 5,5 ≈ 3,2 47 Les demi-droites graduees sont imprimables.",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "2"
+  },
+  {
+    "type": "libre",
+    "body": "« 50 % des eleves pratiquent un sport » signifi e que : b. 10 L d’essence coutent 12 € (la moitie de 24 €). c. 50 eleves sur 100 pratiquent un sport. c. 1 L d’essence coute 1,20 € (le dixieme de 12 €). d. la moitie des eleves pratiquent un sport.",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "5"
+  },
+  {
+    "type": "libre",
+    "body": "40 € augmentes de 25 % : b. 50 billes pesent 175 g (5 × 135 g = 175 g). c. 1 bille pese 3,5 g (un dixieme de 35 g). 25 % de 40 €, c’est le quart de 40 €, soit 10 €.",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "6"
+  },
+  {
+    "type": "libre",
+    "body": "41 ÷ 5 = 8,2 (ils posent la division euclidienne). C’est l’occasion de faire des rappels sur l’ecriture decimale : 8,2 = 8,20 Au debut de l’exercice, il faut s’assurer que tous les eleves 8,2 € ce n’est pas 8 euros et 2 centimes puisque les centimes sont comprennent le sens de l’expression « paye a l’heure ». Il faut des centiemes d’euros. arriver a des phrases du type : « la paye est la meme pour toutes Naim est paye 8,20 € de l’heure, ce qui est superieur au salaire les heures travaillees », « si on double le temps de travail, on double minimum horaire. la paye ; si on connait sa paye pour 5 heures et 3 heures, on peut connaitre sa paye pour 8 heures en additionnant ». Ces types de",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "3"
+  },
+  {
+    "type": "calcul",
+    "body": "500 g de patates douces coutent 1,35 € (la moitie de 21 On ne peut pas calculer car la taille n’est pas proportionnelle 2,70 €). a l’age. 28 10 L coutent 12,50 € donc 1 L coute 1,25 € (un dixieme de 22 3 × 130 km = 390 km 12,50 €). Oui, la distance parcourue en 3 heures sera 390 km. 29 4 matelas 23 5 × 2,15 € = 10,75 € 1 m Oui, on peut connaitre le prix de cinq pots de fromage blanc :",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "calcul",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "4"
+  },
+  {
+    "type": "libre",
+    "body": "Une pile de dix pieces a une hauteur de 23,8 mm donc l’epais- 55,4 × 144 = 7 977,6 50,4 × 144 = 7 257,6 seur d’une piece est le dixieme de 23,8 mm. Les dimensions reelles de l’A380 sont une envergure d’environ 23,8 mm ÷ 10 = 2,38 mm 7 977 cm (79,77 m) et une longueur d’environ 7 257 cm Une piece de 50 centimes a une epaisseur de 2,38 mm. (72,57 m).",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "1"
+  },
+  {
+    "type": "libre",
+    "body": "Il y a sept eleves externes. – 6 0 1 6 6 – 1 4 4 6 42 La remise a ete de 10 € sur un prix initial de 50 €. Cela revient a une remise de 20 € sur 100 €. La remise a donc ete de 20 %. 4 0 0 2 2 43 2 % c’est « 2 pour 100 » ce qui revient a « 1 pour 50 ». Dans un – 3 6 0 aquarium de 50 L, 1 L d’eau s’evapore en une journee. 4 0 0 44 Solde : –20 % 100 € → 20 € 10 € → 2 € Donc 110 € → 22 € – 3 6 0 110 € – 22 € = 88 € Le prix solde du pantalon est de 88 €. 4 0 10 000 min = 6 j 22 h 40 min 45 C’est l’occasion de retenir que « 10 % = un dixieme » et que Il faudra 10 000 minutes, soit 6 j 22 h 40 min, pour que 1 m3 prendre 10 % d’une quantite revient a la diviser par",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "7"
+  },
+  {
+    "type": "libre",
+    "body": "Ils travaillent avec des tiers sans ecritures decimales fi nies. 4 eleves etudient le portugais, 3 eleves etudient l’allemand, et • Chercher un multiple commun a 2 et 3 (peinture noire) ou a 18 eleves etudient l’espagnol en LV",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "4"
+  },
+  {
+    "type": "libre",
+    "body": "100 € + 100 € + 50 € = 250 € → 40 € + 40 € + 20 € = 100 € 3 m × 3 m = 9 m2 250 € – 100 € = 150 € Noa a paye 150 €. Donc le tapis carre de Rene a pour cote 3 m. Gabin : Deux remises successives de 18 % et 22 %. 59 Statue de la Liberte Les operations sont posees. 1re remise : 2e remise : Coups de pouce possibles : Y a-t-il une partie de la statue de 0,18 × 250 = 45 0,22 × 205 = 45,1 la Liberte dont on connaisse la taille a New York et a Paris ? 250 – 45 = 205 205 – 45,1 = 159,9 Preciser aux eleves qu’ils peuvent utiliser des valeurs Gabin a paye 159,90 €. approchees au centieme. C’est Noa qui a eu la meilleure remise, il a donc raison. Certaines donnees du probleme ne serviront pas (dimension de l’index et du bras), c’est voulu. Les eleves doivent extraire 63 Composition du sang l’information utile. On peut mettre les donnees du probleme dans un tableau Toutes les operations sont faites de tete ou posees. de proportionnalite.",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "2"
+  },
+  {
+    "type": "libre",
+    "body": "Le contour de la fi gure 2 est constitue de six quarts de Donc le temps necessaire pour parcourir le grand tour bleu cercle de 2,8 cm de rayon, donc sa longueur est : est de 5,28 min, c’est-a-dire 5 min et 28 centiemes de minutes, 6 × (2 × π × 2,8 cm ÷ 4) ≈ 26,4 cm soit environ 5 min et 17 secondes (en eff et, un centieme de",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "1"
+  },
+  {
+    "type": "libre",
+    "body": "Le perimetre du carre est : 4 × 5,6 cm = 22,4 cm minute correspond a 0,6 seconde et 28 centiemes de minute Le perimetre du carre de la fi gure 1 est donc inferieur au correspondent a 28 fois 0,6 soit environ 17 secondes). perimetre de la fi gure",
+    "answer": "A completer",
+    "explanation": null,
+    "difficulty": "moyen",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "libre",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "2"
+  },
+  {
+    "type": "qcm",
+    "body": "23 1. 10,04 – 9,81 = 0,23 0,23 ou de seconde separe 100 1. Aurele peut donner trois nombres diff erents : 323 ; 324 Jimmy Vicaut et Usain Bolt. et 325. 2. Akani Simbine (9,94 s) a devance le Francais (10,04 s) d’un Juliette peut donner : 322,2 ; 322,3 ; 322,4 ; 322,5 ; dixieme de seconde. 322,6 ; 322,7 ; 322,8 ; 322,9 ; 323,1 ; 323,2. 3. L’athlete se trouvant « au pied du podium » est le quatrieme, 2. Il n’y a pas de nombre entier compris entre 12,3 et 12,4 ; c’est donc Justin Gatlin. Aurele ne peut donc pas repondre. Juliette peut donner : 12,31 ; 12,32 ; 12,33 ; 12,34 ; 81 Ecriture d’enonce 12,35 ; 12,36 ; 12,37 ; 12,38 ; 12,39 ; 12,311 ; 12,312 ; 1,313 ; 12,314 ; 12,315 ; 12,316 ; 1,317 ; 12,318 ; 12,319 ; 12,321 ; Questions ceinture jaune 12,324. C 3. On ne peut pas intercaler un nombre entier entre deux nombres decimaux qui ont la meme partie entiere. 15,7 15,8 Par contre, on peut toujours intercaler un nombre decimal 1. Sur cette demi-droite graduee, placer les points A et B entre deux nombre decimaux. d’abscisses respectives 15,72 et 15,79. On pourra revenir a la demi-droite en precisant que l’on 2. Quelle est l’abscisse du point C ? pourra toujours faire des zooms permettant d’obtenir des 3. Ecrire l’abscisse du point C comme somme de sa partie sous-graduations. entiere et de sa partie decimale. 4. Donner l’ecriture fractionnaire de l’abscisse du point C. Aurele n’est pas content car tres souvent, il n’a pas la 5. Ranger les nombres suivants dans l’ordre decroissant : possibilite de gagner, alors que Juliette aura toujours la 79 possibilite de trouver un nombre decimal compris entre 15,8 ; 15,72 et 15+ . 100 deux nombres fi xes. Questions ceinture verte C TTTTTTTTTTrrrrrrrrrraaaaaaaaaavvvvvvvvvvaaaaaaaaaaiiiiiiiiiilllllllllllllllllllleeeeeeeeee aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa rrrrrrrrrr uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuutttttttttttttttttttttttttttttttttttrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnttttttttttttttttttttttttttttttttttt 15,7 15,8 1. Sur cette demi-droite graduee, placer le plus precisement possible les points A et B d’abscisses respectives 15,69 et 15,784. 80 Analyse de documents 2. Ecrire l’abscisse du point C comme somme de sa partie entiere Questions ceinture jaune et de sa partie decimale le plus precisement possible. 1. 10,06 > 10,04 > 9,96 > 9,94 > 9,93 > 9,91 > 9,89 > 9,81 3. Donner un encadrement au centieme de 15,758. Entourer le 2. – Usain Bolt est le vainqueur, sa performance est donc nombre le plus proche de 15,758. 9,81 s. 4. Quelle est la partie entiere de l’abscisse de A, son chiff re des – Justin Gatlin est le deuxieme, sa performance est donc dixiemes et son chiff re des centiemes ? 9,89 s. – Andre de Grasse est le troisieme, sa performance est donc Questions ceinture noire 9,91 s. 1. Je suis un nombre decimal. Mon dernier chiff re non nul apres – J immy Vicaut est le septieme, sa performance est donc la virgule est celui des dix-milliemes. 10,04 s. Mon nombre de dixiemes est 90 424. 3. – Andre Ben Youssef est le sixieme, sa performance est donc Mon chiff re des centiemes est le tiers de celui des milliers. 9,96 s. Mon chiff re des milliemes est le double de celui des dixiemes. – La performance de Yohan Blake est 9,93 s. Mon chiff re des dix-milliemes est le double de celui des – Trayvon Bromell est le dernier, sa performance est donc centiemes. 10,06 s. 2. Trouver six nombres compris entre 7,12 et 7,13. 6223_Livre.indb 56 17/07/2017 15:39 --- PAGE 58 --- Livre du professeur – Chapitre 2 Nombres decimaux 57 .tiled nu tse eesirotua non eipocotohp aL – ruesseforp ud erviL – e6 ogidnI noissiM – 7102 erviL ettehcaH © 82 Analyse de production 84 Les carres 1. a. L’aire d’un carre de cote 3,8 cm est 14,44 cm2. Questions ceinture jaune L’aire d’un carre de cote 3,9 cm est 15,21 cm2. 0,03 m = 3 cm b. Un encadrement au millimetre est un encadrement au dixieme de centimetre. Questions ceinture verte 3,8 cm < c < 3,9 cm 0,000 05 m = 0,000 050 m = 50 × 0,000 001 m = 50 µm 0,000 000 2 m = 0,2 µm et 0,000 2 m = 0,2 mm 2. a. Questions ceinture noire Dans 0,000 000 000 1 le chiff re 1 est a la dixieme place apres la virgule donc 0,000 000 000 1 m est dix fois plus petit que 1 nm et 0,000 000 000 1 m = 0,1 nm et 0,000 002 mm = 2 000 nm. OOOOOOOuuuuuuutttttttiiiiiiilllllllsssssss nnnnnnnuuuuuuummmmmmmeeeeeeerrrrrrriiiiiiiqqqqqqquuuuuuueeeeeeesssssss eeeeeeeeeeettttttttttt aaaaaaaaaaalllllllllllgggggggggggooooooooooorrrrrrrrrrriiiiiiiiiiittttttttttthhhhhhhhhhhmmmmmmmmmmmiiiiiiiiiiiqqqqqqqqqqquuuuuuuuuuueeeeeeeeeee 83 Course de kilometre lance 2. b. =A2*A2 c. 3,87 < c < 3,88 d. On peut utiliser a nouveau le tableur en affi chant les 1 longueurs entre 3,87 et 3,88 avec un pas de s. 1000 3. La vitesse maximale est 175 km/h. La vitesse minimale est On obtient 3,872 < c < 3,873. 161,3 km/h. 4. 19 skieurs ont obtenu une vitesse superieure a 165 km/h. 5. 169,05 km/h 6. 2 centiemes de km/h entre le 2e et le 3e skieur. 7 dixiemes de km/h entre les deux derniers skieurs. 6223_Livre.indb 57 17/07/2017 15:39 --- PAGE 59 --- 6223_Livre.indb 58 17/07/2017 15:39 --- PAGE 60 --- RT E IPAHC Livre du professeur – Chapitre 3 Addition, soustraction et multiplication 59 .tiled nu tse eesirotua non eipocotohp aL – ruesseforp ud erviL – e6 ogidnI noissiM – 7102 erviL ettehcaH © Addition, soustraction 333 et multiplication Introduction Ce chapitre s’inscrit dans le theme « Nombres et calculs ». Les problemes se complexifi ent progressivement ; l’objectif est Les connaissances associees sont : l’addition, la soustraction et la d’automatiser la reconnaissance de l’operation en fi n de cycle 3. multiplication des nombres decimaux. « On passe de problemes dont la",
+    "answer": "engage une demarche a Les capacites associees sont : une ou plusieurs etapes indiquees dans l’enonce a des problemes, – calculer avec des nombres decimaux, c’est-a-dire memoriser en 6e, necessitant l’organisation de donnees multiples ou la des faits techniques et des procedures elementaires de construction d’une demarche ; la collecte des informations utiles calcul, elaborer ou choisir des strategies de calcul a l’oral et a peut se faire a partir d’un support unique puis a partir de deux l’ecrit, verifi er la vraisemblance d’un resultat, notamment en supports complementaires pour aller vers des taches complexes estimant son ordre de grandeur (en travaillant sur l’addition, melant plusieurs supports. » la soustraction, la multiplication et les proprietes de ces Ce chapitre a ete concu de facon a mettre l’accent sur les problemes operations, les faits et procedures numeriques additifs et issus d’autres enseignements, de la vie de classe ou de la vie multiplicatifs). Il s’agit aussi de travailler le calcul mental, mais courante. L’eleve consolide ici l’automatisation des techniques aussi pose et instrumente. Dans les calculs en ligne, il s’agit de calcul (addition, soustraction, multiplication), des procedures notamment d’utiliser des parentheses dans des situations tres de calcul mental et utilise des ordres de grandeur pour estimer, simples et d’en connaitre les regles d’usage. En lien avec la controler ou verifi er un calcul. calculatrice, il s’agit aussi d’introduire et de travailler la priorite de la multiplication sur l’addition et la soustraction. Comme precise dans les programmes : « Le calcul, dans toutes – resoudre des problemes mettant en jeu l’addition, la soustraction ses modalites, contribue a la connaissance des nombres. Ainsi, et la multiplication des nombres decimaux, de facon a bien meme si le calcul mental permet de produire des resultats utiles maitriser le sens de chacune de ces operations et de traiter des dans diff erents contextes de la vie quotidienne, son enseignement problemes relevant des structures additives et multiplicatives. vise neanmoins prioritairement l’exploration des nombres et des Ce chapitre permet de faire un point sur les operations. En eff et : proprietes des operations. Il s’agit d’amener les eleves a s’adapter « La pratique du calcul mental s’etend progressivement des en adoptant la procedure la plus effi cace en fonction de leurs nombres entiers aux nombres decimaux, et les procedures a connaissances mais aussi et surtout en fonction des nombres mobiliser se complexifi ent. Les diff erentes techniques operatoires et des operations mis en jeu dans les calculs. Pour cela, il est portent sur des nombres entiers et/ou des nombres decimaux : indispensable que les eleves puissent s’appuyer sur suffi samment addition et soustraction pour les nombres decimaux des le CM1 ; de faits numeriques memorises et de modules de calculs multiplication d’un nombre decimal par un nombre entier au CM2, elementaires automatises. De meme, si la maitrise des techniques de deux nombres decimaux en 6e. » operatoires ecrites permet a l’eleve d’obtenir un resultat de calcul, Il convient donc ici d’insister sur la multiplication de deux nombres la construction de ces techniques est l’occasion de retravailler decimaux, permettant notamment d’aller plus loin dans la les proprietes de la numeration et de rencontrer des exemples technique operatoire. d’algorithmes complexes ». Le chemin vers la sortie est indique en orange. 2,8 + 1,5 = 4,3 3 8,6 4,3 – 1,3 = 3 5,1 3 × 4 = 12 4 1,2 2,5 12 + 3,7 = 15,7 3,7 15,7 × 2 = 31,4 3,6 31,4 – 22,4 = 9 30 4 2 9 × 5 = 45 45 + 3,6 = 48,6 22,4 48,6 – 8,6 = 40 1,3 40 × 2,5 = 100 5 100 – 1,2 = 98,8 0,2 2,3 1,5 Harpagon rangera la somme de 98,80 € dans son coff re. AAccttiivviitteess QQQQQuuuuueeeeessssstttttiiiiiooooonnnnnsssss ffffflllllaaaaassssshhhhh 1. A = 25 + 19 = 44 Proposer par exemple de proceder ainsi : L’objectif est ici de retravailler le calcul mental en revoyant (25 + 20) – 1 = 45 – 1 = 44 les procedures numeriques d’addition et de soustraction B = 35 + 49 = 84 C = 99 + 28 = 127 D = 55 – 39 = 16 avec un nombre entier se terminant par 9. Proposer par exemple de proceder ainsi : (55 – 40) + 1 = 15 + 1 = 16 E = 76 – 49 = 27 F = 78 – 29 = 49 6223_Livre.indb 59 17/07/2017 15:39 --- PAGE 61 --- 60 NOMBRES ET CALCULS .tiled nu tse eesirotua non eipocotohp aL – ruesseforp ud erviL – e6 ogidnI noissiM – 7102 erviL ettehcaH © QQQQQuuuuueeeeessssstttttiiiiiooooonnnnnsssss ffffflllllaaaaassssshhhhh 2. 5. Cet exercice permet de retravailler les additions et Cet exercice permet de reviser les tables de multiplication. soustractions entre un nombre entier et un nombre A = 3 × 7 = 21 B = 9 × 8 = 72 C = 5 × 6 = 30 decimal non entier (et ainsi, travailler sur l’erreur frequente D = 80 × 4 = 320 On expliquera qu’il est simple de faire : 7,8 + 2 = 7,10). Cela permet de revoir le fait que 2 = 2,0 et (8 × 4) × 10 = 32 × 10 = 320 qu’on aligne les virgules dans l’addition et la soustraction E = 60 × 30 = 1 800 On expliquera qu’il est simple de faire : de nombres decimaux. (6 × 3) × 10 × 10 = 18 × (10 × 10) = 18 × 100 = 1 800 A = 7,8 + 2 = 9,2 B = 15,8 + 36 = 51,8 C = 5,4 – 2 = 3,4 F = 500 × 90 = 45 000 18 – 1,9 = 16,1 On calculera ainsi : 6. (18 – 2) + 0,1 = 16 + 0,1 = 16,1 Cet exercice permet de retravailler la multiplication d’un D = 18 – 1,9 = 16,1 E = 15,7 – 6 = 9,7 F = 57,8 – 18 = 39,8 nombre entier par un nombre decimal non entier. 3. A = 9,5 × 2 = 19 B = 8,4 × 3 = 25,2 Cet exercice permet de retravailler la diff erence entre C = 4,1 × 5 = 20,5 D = 4,3 × 10 = 43 deux nombres comme etant le nombre cherche dans E = 5,73 × 10 = 57,3 F = 0,05 × 100 = 5 une addition a trous. Les calculs D, E et F permettent de retravailler la 2,8 + 5 = 7,8 5,4 + 4,4 = 9,8 2,1 + 7,9 = 10 multiplication d’un nombre decimal non entier par 10, 4,4 + 5,6 = 10 9,3 + 0,7 = 10 5,8 + 4,2 = 10 100, 1 000 et d’eviter ainsi l’erreur frequemment commise : 4. 4,3 × 10 = 4,30 en expliquant que le chiff re des dixiemes Cet exercice permet de retravailler les additions et les n’est pas devenu le chiff re des unites. soustractions de deux nombres decimaux non entiers. 7. A = 2,1 + 1,7 = 3,8 B = 5,6 + 4,9 = 10,5 C = 9,2 + 1,9 = 11,1 D = 8,4 – 2,3 = 6,1 Cet exercice permet de travailler les petits problemes et le E = 9,4 – 2,6 = 6,8 F = 7,3 – 3,7 = 3,6 sens de l’addition, de la soustraction et de la multiplication. On pourra faire remarquer qu’il est souvent plus facile pour a. Les trois cahiers coutent 3 × 1,05 € = 3,15 €. eff ectuer 7,3 – 3,7 de chercher le nombre manquant dans b. Les quatre stylos coutent 4 × 1,20 € = 4,80 €. l’egalite 3,7 + … = 7,3. Ainsi, on verifi e le resultat de cette c. L’ensemble des achats coute 3,15 € + 4,80 € = 7,95 €. soustraction en eff ectuant 3,7 + 3,6 = 7,3. d. La caissiere lui rend 10 € – 7,95 € = 2,05 €. Region Nouvelle-Aquitaine Activite 1 Intentions des auteurs En 2015, il y avait 3 316,9 milliers d’habitants dans l’ancienne region Aquitaine. Objectif : Reactiver l’addition et la soustraction de nombres 2. 470,9 + 1 792 + 3 316,9 = 2 262,9 + 3 316,9 = 5 579,8 decimaux. Cette activite permet aussi de retravailler le sens de La region Nouvelle-Aquitaine contenait 5 579,8 milliers d’habitants l’addition et de la soustraction. en 2015. Prerequis : Connaissance de ces operations et des nombres 3. 5 579,8 – 3 316,9 = 2 262,9 (diff erence de population entre la decimaux. region Nouvelle-Aquitaine et l’ancienne region Aquitaine) Capacite reintroduite, car vue en CM2 : Additionner et Ou 1 792 + 470,9 = 2 262,9 (somme des populations des regions soustraire des nombres decimaux. Limousin et Poitou-Charentes) La diff erence de population entre l’ancienne region Aquitaine et la 1. 1 505,5 + 416,9 + 397,2 + 333,2 + 664,1 = 3 316,9 region Nouvelle-Aquitaine est de 2 262,9 milliers d’habitants. Que de virgules ! Activite 2 Intentions des auteurs 2 m de tissu coutent 16,40 € et 0,50 m de tissu coute la moitie du prix d’un metre, soit 8,20 € ÷ 2 = 4,10 €. Objectif : Decouvrir la multiplication de deux nombres 2,50 m coutent donc 16,40 € + 4,10 € = 20,50 €. decimaux. Prerequis : La connaissance du sens de la multiplication et la On peut alors demander aux eleves de trouver un moyen plus multiplication de deux nombres entiers et d’un nombre entier rapide. par un nombre decimal non entier. Le prix de 2,5 m de tissu se calcule en eff ectuant 2,5 × 8,2. Capacite reintroduite : Multiplication de deux nombres On peut faire constater que 25 × 82 = 2 050. Le resultat de 2,5 × 8,2 decimaux (non entiers). est egal a 2 050 ÷ 100. L’eleve doit essayer de trouver un moyen, connaissant la En eff et : 2,5 = 25 ÷ 10 et 8,2 = 82 ÷ 10 multiplication de deux entiers, de multiplier deux nombres Pour calculer 2,5 × 8,2, il faut donc d’abord calculer 25 × 82 puis decimaux. diviser le resultat par 100. a. Le tissu coute 8,20 € le metre, ce qui signifi e qu’un metre coute c. En se servant de la remarque precedente, 2,65 m de tissu coutent 8,20 €. Deux metres coutent deux fois plus, soit 8,20 € × 2 = 16,40 €. 2,65 × 8,2. On calcule d’abord 265 × 82 = 21 730, puis on divise le resultat par Les eleves pourront aussi calculer 8,20 + 8,20 = 16,40. 1 000 (car 2,65 = 265 ÷ 100 et 8,2 = 82 ÷ 10). On trouve donc que Dans les deux cas, on leur fera faire une remarque sur la place de 2,65 × 8,2 = 21,73. la virgule dans le produit. 2,65 metres de tissu coutent donc 21,73 €. 820 × 2 = 1 640 Or 8,20 = 820 ÷ 100. On pourra faire remarquer qu’il suffi t de calculer 265 × 82, puis Donc pour calculer 8,20 × 2, on calcule 1 640 ÷ 100 = 16,40. de compter le nombre de chiff res derriere la virgule au total dans les deux facteurs : ce sera le nombre de chiff res apres la virgule b. Pour calculer 2,50 m, on va ajouter le prix de 2 m de tissu et de du produit. 0,50 m de tissu. 6223_Livre.indb 60 17/07/2017 15:39 --- PAGE 62 --- Livre du professeur – Chapitre 3 Addition, soustraction et multiplication 61 .tiled nu tse eesirotua non eipocotohp aL – ruesseforp ud erviL – e6 ogidnI noissiM – 7102 erviL ettehcaH © SSSSaaaavvvvooooiiiirrrr----ffffaaaaiiiirrrreeee 3 C’est une situation additive. 2,56 + 3,07 + 3,78 = 9,41 Le total des sauts de Kevin est de 9,41 m. 4 On calcule d’abord le volume represente avec le jus d’orange et le sucre de canne : 2,2 + 0,75 = 2,95 On cherche le volume manquant qui correspond a la grenadine : 3,1 – 2,95 = 0,15 Amelle a utilise 0,15 L de grenadine. 6 Elle fait 12 fois 2,75 km : c’est bien une situation multiplicative. 12 × 2,75 = 33 2, 7 5 × 1 2 5 5 0 +1 + 2 7 5 0 +1 3 3, 0 0 Pauline a parcouru 33 km. 9 a. On commence par les multiplications qui sont prioritaires. A = 52,4 + 3,7 × 4 + 2,7 × 2 A = 52,4 + 14,8 + 5,4 Il n’y a plus que des additions. A = 72,6 { { b. On commence par le calcul entre parentheses : B = (5,1 – 3,7) × 3 + 4,7 B = 1,4 × 3 + 4,7 La multiplication est prioritaire. B = 4,2 + 4,7 B = 8,9 Additionner et soustraire avec des nombres decimaux QQQQQuuuuueeeeessssstttttiiiiiooooonnnnnsssss ffffflllllaaaaassssshhhhh 10 a. 25,7 + 5 = 30,7 b. 147,6 + 13 = 160,6 c. 280,54 + 20 = 300,54 d. 17,5 + 2,5 = 20 e. 36,25 + 4,25 = 40,5 f. 12,75 + 2,25 = 15 g. 120,5 + 80,5 = 201 h. 300,5 + 0,5 = 301 i. 0,75 + 0,25 = 1 11 1. 15,5 × 2 = 31 Le double de 15,5 est 31. 2. 25,25 × 2 = 50,5 Le double de 25,25 est 50,5. 3. 24,24 ÷ 2 = 12,2 La moitie de 24,24 est 12,12. 4. 642,18 ÷ 2 = 321,09 La moitie de 642,18 est 321,09. { { Crepes en fete Activite 3 Intentions des auteurs sucre en poudre, deux plaquettes de beurre, sept litres de lait et un lot de sachets de sucre vanille. Objectif : Retravailler les ordres de grandeur d’operations sur En prenant comme ordres de grandeur : 1 € pour le paquet de farine, les nombres decimaux. 2,50 € la boite d’œufs, 1 € la boite de sucre, 1,50 € la plaquette de Prerequis : La connaissance du sens des operations, le calcul beurre, 0,50 € le litre de lait et 2 € le lot de sachets de sucre vanille, sur les nombres entiers et la notion d’ordre de grandeur (deja l’ensemble des achats coutera environ : vue sur les nombres entiers). (6 × 1) + (3 × 2,50) + 1 + (2 × 1,50) + (7 × 0,60) + 2 Capacite introduite : Estimer un ordre de grandeur d’un calcul = 6 + 7,50 + 1 + 3 + 4,20 + 2 = 23,70 € sur les nombres decimaux. N’ayant que 20 €, il n’aura pas assez d’argent. Il faut d’abord chercher les quantites necessaires. Le montant exact des achats est de : Il lui faudra six paquets de farine, trois boites d’œufs, une boite de (6 × 0,91) + (3 × 2,46) + 0,93 + (2 × 1,53) + (7 × 0,61) + 1,94 = 23,04 € De l’ordre ! Activite 4 Intentions des auteurs La multiplication est prioritaire sur l’addition : cela sous-entend qu’il y a des parentheses autour de la multiplication. Objectif : Decouvrir la priorite de la multiplication sur l’addition et la soustraction. La question du caractere prioritaire de la multiplication sur la Prerequis : La connaissance du role des parentheses dans soustraction se pose aussi. On pourra faire eff ectuer des petits un calcul, le calcul sur les nombres decimaux et l’usage de la calculs avec une soustraction et une multiplication avec la calculatrice. calculatrice pour faire constater que la multiplication est aussi Capacite introduite : Travailler les priorites operatoires prioritaire sur la soustraction. (priorite des parentheses et priorite de la multiplication sur l’addition et la soustraction). 4. Lorsque l’on ecrit (0,75 + 1,25) × 3, l’operation qui doit etre 1. Les trois morceaux de fi celle ont donc une longueur de eff ectuee en premier est 0,75 + 1,25 (priorite des parentheses). 3 × 1,25 m = 3,75 m. On y ajoute le morceau de 0,75 m, soit une Lorsque l’on ecrit 0,75 + 1,25 × 3, l’operation qui doit etre eff ectuee longueur totale de 3,75 m + 0,75 m = 4,50 m. en premier est 1,25 × 3 (priorite de la multiplication). Nathan va obtenir 4,50 m de fi celle. 2. Lola a fait : 0,75 + 1,25 × 3 = 2 × 3 = 6 Les deux calculs ne signifi ent donc pas la meme chose : Lola a tort. Elle a eff ectue l’addition en premier (0,75 + 1,25). L’expression qui permet de calculer la longueur totale de la fi celle Nathan a fait : 0,75 + 1,25 × 3 = 0,75 + 3,75 = 4,5 de la",
+    "explanation": null,
+    "difficulty": "facile",
+    "tags": [
+      "6eme",
+      "chapitre_2",
+      "nombres_decimaux",
+      "qcm",
+      "extrait_manuel"
+    ],
+    "options": null,
+    "chapter_number": 2,
+    "chapter_title": "Nombres decimaux",
+    "exercise_number": "3"
+  }
+]
