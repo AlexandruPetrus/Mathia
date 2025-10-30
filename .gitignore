@@ -48,4 +48,8 @@ uploads/
 coverage/
 .nyc_output/
 
+Thumbs.db
+desktop.ini
+*.log
+
 
