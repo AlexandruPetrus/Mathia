@@ -37,9 +37,9 @@ venv/
 env/
 
 # Database
-*.sql
 *.sqlite
 *.db
+# IMPORTANT: Ne pas ignorer supabase_schema.sql (nécessaire pour déploiement)
 
 # Uploads
 uploads/
@@ -51,5 +51,55 @@ coverage/
 Thumbs.db
 desktop.ini
 *.log
+
+# ============================================
+# FICHIERS SENSIBLES - NE JAMAIS COMMITTER
+# ============================================
+
+# Clés de signature Android (CRITIQUE)
+mathia_app/android/key.properties
+mathia_app/android/app/upload-keystore.jks
+mathia_app/android/app/*.jks
+mathia_upload-keystore.jks
+*.keystore
+*.jks
+
+# Fichiers de configuration avec clés API
+mathia_app/.env
+mathia_app/.env.local
+mathia_app/.env.production
+
+# Dossiers de build Flutter
+mathia_app/build/
+mathia_app/.dart_tool/
+mathia_app/.flutter-plugins
+mathia_app/.flutter-plugins-dependencies
+mathia_app/.packages
+mathia_app/pubspec.lock
+
+# Fichiers générés par Android
+mathia_app/android/app/debug/
+mathia_app/android/app/profile/
+mathia_app/android/app/release/
+mathia_app/android/.gradle/
+mathia_app/android/local.properties
+mathia_app/android/captures/
+mathia_app/android/gradle/wrapper/gradle-wrapper.jar
+
+# Fichiers générés par iOS
+mathia_app/ios/Flutter/Generated.xcconfig
+mathia_app/ios/Flutter/flutter_export_environment.sh
+mathia_app/ios/Pods/
+mathia_app/ios/.symlinks/
+mathia_app/ios/Flutter/App.framework
+mathia_app/ios/Flutter/Flutter.framework
+mathia_app/ios/Flutter/Flutter.podspec
+mathia_app/ios/ServiceDefinitions.json
+mathia_app/ios/Runner/GeneratedPluginRegistrant.*
+
+# Autres
+mathia_app/.idea/
+mathia_app/*.iml
+mathia_app/.vscode/
 
 

@@ -1,0 +1,142 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+// Charger les propriétés du keystore pour la signature
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+android {
+    namespace "com.mathia.app"
+    compileSdkVersion 34
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        applicationId "com.mathia.app"
+        minSdkVersion 21  // Android 5.0 (Lollipop) - Support 98% des appareils
+        targetSdkVersion 34  // Android 14
+        versionCode 1  // Incrémenter à chaque release
+        versionName "1.0.0"  // Version visible par les utilisateurs
+
+        // Optimisations
+        multiDexEnabled true
+
+        // Métadonnées pour Play Store
+        manifestPlaceholders = [
+            appName: "Mathia"
+        ]
+    }
+
+    signingConfigs {
+        release {
+            if (keystorePropertiesFile.exists()) {
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
+                storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+                storePassword keystoreProperties['storePassword']
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix ".debug"
+            debuggable true
+            minifyEnabled false
+            shrinkResources false
+        }
+
+        release {
+            // Signature de l'app
+            signingConfig signingConfigs.release
+
+            // Optimisations de la taille de l'APK
+            minifyEnabled true  // Supprime le code inutilisé
+            shrinkResources true  // Supprime les ressources inutilisées
+
+            // Règles de ProGuard pour garder les classes nécessaires
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            // Optimisations natives
+            ndk {
+                debugSymbolLevel 'FULL'  // Symboles de debug pour Google Play
+            }
+        }
+    }
+
+    // Support de plusieurs architectures (ARM et x86)
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'armeabi-v7a', 'arm64-v8a', 'x86_64'
+            universalApk false  // false pour Play Store (économise de l'espace)
+        }
+    }
+
+    // Gestion des versions pour chaque ABI
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def abiVersionCode = 0
+            if (output.getFilter("ABI") != null) {
+                def abiName = output.getFilter("ABI")
+                if (abiName == "armeabi-v7a") {
+                    abiVersionCode = 1
+                } else if (abiName == "arm64-v8a") {
+                    abiVersionCode = 2
+                } else if (abiName == "x86_64") {
+                    abiVersionCode = 3
+                }
+            }
+            output.versionCodeOverride = (abiVersionCode * 1000) + variant.versionCode
+        }
+    }
+
+    // Compression des ressources
+    packagingOptions {
+        resources {
+            excludes += [
+                'META-INF/DEPENDENCIES',
+                'META-INF/LICENSE',
+                'META-INF/LICENSE.txt',
+                'META-INF/license.txt',
+                'META-INF/NOTICE',
+                'META-INF/NOTICE.txt',
+                'META-INF/notice.txt',
+                'META-INF/ASL2.0',
+                'META-INF/*.kotlin_module'
+            ]
+        }
+    }
+
+    lint {
+        checkReleaseBuilds true
+        abortOnError false
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    // Support des appareils plus anciens
+    implementation 'androidx.multidex:multidex:2.0.1'
+}

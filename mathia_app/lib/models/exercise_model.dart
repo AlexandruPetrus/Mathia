@@ -1,19 +1,24 @@
-import 'package:supabase_flutter/supabase_flutter.dart';
-
 class ExerciseModel {
   final String id;
   final String courseId;
   final String title;
-  final String description;
+  final String? description;
   final String question;
-  final String? answer;
-  final List<String>? options; // Pour les QCM
   final String type; // 'qcm', 'libre', 'vrai-faux', 'calcul'
-  final String difficulty; // 'facile', 'moyen', 'difficile'
+  final Map<String, String>? options; // Pour les QCM: {"A": "...", "B": "..."}
+  final String answer;
+  final String? explanation;
+  final String? difficulty; // 'facile', 'moyen', 'difficile'
   final int points;
-  final int timeLimit; // en secondes
+  final List<String>? hints;
+  final List<String>? tags;
   final int orderNum;
   final bool isPublished;
+  final bool aiGenerated;
+  final bool validatedByTeacher;
+  final int usageCount;
+  final double successRate;
+  final String? createdBy;
   final DateTime createdAt;
   final DateTime updatedAt;
 
@@ -21,37 +26,70 @@ class ExerciseModel {
     required this.id,
     required this.courseId,
     required this.title,
-    required this.description,
+    this.description,
     required this.question,
-    this.answer,
-    this.options,
     required this.type,
-    required this.difficulty,
+    this.options,
+    required this.answer,
+    this.explanation,
+    this.difficulty,
     required this.points,
-    required this.timeLimit,
+    this.hints,
+    this.tags,
     required this.orderNum,
     required this.isPublished,
+    required this.aiGenerated,
+    required this.validatedByTeacher,
+    required this.usageCount,
+    required this.successRate,
+    this.createdBy,
     required this.createdAt,
     required this.updatedAt,
   });
 
   factory ExerciseModel.fromJson(Map<String, dynamic> json) {
+    // Gérer le parsing de options (peut être Map ou null)
+    Map<String, String>? parsedOptions;
+    if (json['options'] != null) {
+      final optionsData = json['options'];
+      if (optionsData is Map) {
+        parsedOptions = Map<String, String>.from(optionsData);
+      }
+    }
+
+    // Gérer le parsing de hints (peut être List ou null)
+    List<String>? parsedHints;
+    if (json['hints'] != null && json['hints'] is List) {
+      parsedHints = List<String>.from(json['hints']);
+    }
+
+    // Gérer le parsing de tags (peut être List ou null)
+    List<String>? parsedTags;
+    if (json['tags'] != null && json['tags'] is List) {
+      parsedTags = List<String>.from(json['tags']);
+    }
+
     return ExerciseModel(
       id: json['id'] as String,
       courseId: json['course_id'] as String,
       title: json['title'] as String,
-      description: json['description'] as String,
+      description: json['description'] as String?,
       question: json['question'] as String,
-      answer: json['answer'] as String?,
-      options: json['options'] != null 
-          ? List<String>.from(json['options'] as List)
-          : null,
       type: json['type'] as String,
-      difficulty: json['difficulty'] as String,
-      points: json['points'] as int,
-      timeLimit: json['time_limit'] as int,
-      orderNum: json['order_num'] as int,
-      isPublished: json['is_published'] as bool,
+      options: parsedOptions,
+      answer: json['answer'] as String,
+      explanation: json['explanation'] as String?,
+      difficulty: json['difficulty'] as String?,
+      points: json['points'] as int? ?? 10,
+      hints: parsedHints,
+      tags: parsedTags,
+      orderNum: json['order_num'] as int? ?? 0,
+      isPublished: json['is_published'] as bool? ?? false,
+      aiGenerated: json['ai_generated'] as bool? ?? false,
+      validatedByTeacher: json['validated_by_teacher'] as bool? ?? false,
+      usageCount: json['usage_count'] as int? ?? 0,
+      successRate: (json['success_rate'] as num?)?.toDouble() ?? 0.0,
+      createdBy: json['created_by'] as String?,
       createdAt: DateTime.parse(json['created_at'] as String),
       updatedAt: DateTime.parse(json['updated_at'] as String),
     );
@@ -64,16 +102,21 @@ class ExerciseModel {
       'title': title,
       'description': description,
       'question': question,
-      'answer': answer,
-      'options': options,
       'type': type,
+      'options': options,
+      'answer': answer,
+      'explanation': explanation,
       'difficulty': difficulty,
       'points': points,
-      'time_limit': timeLimit,
+      'hints': hints,
+      'tags': tags,
       'order_num': orderNum,
       'is_published': isPublished,
-      'created_at': createdAt.toIso8601String(),
-      'updated_at': updatedAt.toIso8601String(),
+      'ai_generated': aiGenerated,
+      'validated_by_teacher': validatedByTeacher,
+      'usage_count': usageCount,
+      'success_rate': successRate,
+      'created_by': createdBy,
     };
   }
 
@@ -92,7 +135,20 @@ class ExerciseModel {
       case 'difficile':
         return 'Difficile';
       default:
-        return difficulty;
+        return difficulty ?? 'Non défini';
+    }
+  }
+
+  String get difficultyEmoji {
+    switch (difficulty) {
+      case 'facile':
+        return '🟢';
+      case 'moyen':
+        return '🟡';
+      case 'difficile':
+        return '🔴';
+      default:
+        return '⚪';
     }
   }
 
@@ -111,14 +167,40 @@ class ExerciseModel {
     }
   }
 
-  // Durée formatée (ex: "2 min")
-  String get formattedTimeLimit {
-    if (timeLimit < 60) {
-      return '${timeLimit}s';
-    } else {
-      final minutes = timeLimit ~/ 60;
-      return '${minutes} min';
+  // Emoji selon le type
+  String get typeEmoji {
+    switch (type) {
+      case 'qcm':
+        return '📝';
+      case 'vrai-faux':
+        return '✓✗';
+      case 'libre':
+        return '✍️';
+      case 'calcul':
+        return '🔢';
+      default:
+        return '❓';
     }
+  }
+
+  // Badge de qualité pour exercices IA
+  String get qualityBadge {
+    if (!aiGenerated) return '👨‍🏫'; // Créé par un prof
+    if (validatedByTeacher) return '✅'; // IA validée
+    return '🤖'; // IA non validée
+  }
+
+  // Taux de réussite formaté
+  String get successRateText {
+    return '${successRate.toStringAsFixed(1)}%';
+  }
+
+  // Liste des options pour QCM (retourne les clés triées)
+  List<String> get optionKeys {
+    if (options == null) return [];
+    final keys = options!.keys.toList();
+    keys.sort();
+    return keys;
   }
 
   @override
